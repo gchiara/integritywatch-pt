@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Integrity Watch PT – Declarations</title>
     <!-- Add twitter and og meta here -->
-    <meta property="og:url" content="https://www.integritywatch.nl" />
+    <meta property="og:url" content="https://www.integritywatch.pt" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Integrity Watch PT – Declarations" />
     <meta property="og:description" content="Lorem ipsum" />
@@ -78,10 +78,10 @@
                   <thead>
                     <tr class="header">
                       <th class="header">Nr</th> 
-                      <th class="header">Name</th> 
-                      <th class="header">Party</th> 
-                      <th class="header">Profession</th> 
-                      <th class="header">Activities</th> 
+                      <th class="header">Nome</th> 
+                      <th class="header">Partido</th> 
+                      <th class="header">Profissao</th> 
+                      <th class="header">Cargos</th> 
                     </tr>
                   </thead>
                 </table>
