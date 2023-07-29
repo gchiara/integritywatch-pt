@@ -2,6 +2,7 @@
 $color_TI: #3b95d0;
 $color_TI_darker: darken( $color_TI, 20% );
 $color_lobby: #42b983;
+$color_highlight: #ff4621;
 
 /* HEADER */
 
@@ -16,10 +17,10 @@ $color_lobby: #42b983;
     font-weight: bold;
     color: $color_TI;
     &:hover {
-      color: #dd3c31;
+      color: $color_highlight;
     }
     &.active {
-      color: #dd3c31;
+      color: $color_highlight;
     }
   }
   .icon-btn {
@@ -41,6 +42,35 @@ $color_lobby: #42b983;
 }
 
 /* MAIN & CHARTS */
+
+.acttype-select-container {
+  text-align: left;
+  padding-left: 5px;
+  .link-button {
+    border: none;
+    color: #fff;
+    display: inline-block;
+    margin: 5px 5px;
+    padding: 10px;
+    border-radius: 2px;
+    width: auto;
+    max-width: 90%;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: $color_TI;
+    text-decoration: none;
+    transition: all .4s;
+    &:hover {
+      color: #fff;
+      background-color: #1a6a9e;
+    }
+    &.active {
+      color: #fff;
+      background-color: $color_highlight;
+    }
+  }
+}
 
 .dashboard-container-outer {
   max-width: 1600px;
@@ -172,17 +202,56 @@ $color_lobby: #42b983;
     font-size: 11px;
     padding: 10px 15px 0 15px;
   }
+  &.tab_a_map {
+    height: 550px;
+  }
   &.tab_a_1 {
-    height: 485px;
+    height: 550px;
   }
   &.tab_a_2 {
-    height: 485px;
+    height: 550px;
   }
   &.tab_a_3 {
     height: 485px;
   }
   &.tab_a_4 {
     height: 485px;
+  }
+  &.tab_a_5 {
+    height: 485px;
+  }
+  &.tab_a_6 {
+    height: 485px;
+  }
+  &.tab_a_7 {
+    height: 485px;
+  }
+  &.tab_a_8 {
+    height: 485px;
+  }
+  &.tab_a_9 {
+    height: 485px;
+  }
+  &.tab_a_10 {
+    height: 485px;
+  }
+  &.tab_b_1 {
+    height: 500px;
+  }
+  &.tab_b_2 {
+    height: 500px;
+  }
+  &.tab_b_3 {
+    height: 500px;
+  }
+  &.tab_b_4 {
+    height: 500px;
+  }
+  &.tab_b_5 {
+    height: 500px;
+  }
+  &.tab_b_6 {
+    height: 500px;
   }
   @media only screen and (max-width: 767px) {
     height: auto !important;
@@ -201,6 +270,9 @@ $color_lobby: #42b983;
   z-index: 10000;
   .footer-col {
     height: 66px;
+    @media only screen and (max-width: 850px) {
+      width: 50% !important;
+    }
   }
   .footer-input {
     position: absolute;
@@ -211,7 +283,7 @@ $color_lobby: #42b983;
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
     @media only screen and (max-width: 767px) {
-      display: none;
+      //display: none;
     }
     i {
       vertical-align: middle;
@@ -237,6 +309,7 @@ $color_lobby: #42b983;
       }
       &::placeholder {
         color: #fff;
+        font-size: 13px;
         @media only screen and (max-width: 767px) {
           opacity: 0;
         }
@@ -258,13 +331,16 @@ $color_lobby: #42b983;
       font-size: 14px;
       line-height: 110%;
       float: left;
+      &.count-box-deputees {
+        width: 180px;
+      }
       &.count-box-gifts, &.count-box-travels {
         @media only screen and (max-width: 1280px) {
           display: none;
         }
       }
       &.count-box-activities {
-        @media only screen and (max-width: 920px) {
+        @media only screen and (max-width: 1100px) {
           display: none;
         }
       }
@@ -293,6 +369,9 @@ $color_lobby: #42b983;
     -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
+    @media only screen and (max-width: 850px) {
+      display: none;
+    }
     button {
       color: #fff;
       background: none;
@@ -339,9 +418,9 @@ $color_lobby: #42b983;
     cursor: pointer;
     background: rgb(226, 94, 108);
     transition: all .4s;
-    @media only screen and (max-width: 767px) {
-      right: auto;
-      left: 20px;
+    @media only screen and (max-width: 850px) {
+      right: 20px;
+      left: auto;
     }
     &:hover, &:focus, &.active {
       background: rgb(206, 74, 88);
@@ -612,6 +691,12 @@ table.dataTable tbody tr:hover {
   cursor: pointer;
   background: #eee;
 }
+.dt-body-right {
+  text-align: right !important;
+}
+.dt-body-center {
+  text-align: center !important;
+}
 
 /* POPOVER */
 
@@ -768,7 +853,7 @@ table.dataTable tbody tr:hover {
     button {
       border: none;
       color: #fff;
-      background: #2a7aae;
+      background: $color_TI;
       border-radius: 2px;
       padding: 5px 15px;
       font-size: 16px;
@@ -779,8 +864,15 @@ table.dataTable tbody tr:hover {
       &:hover {
         background: #1a6a9e;
       }
+      &.active {
+        background: $color_highlight;
+      }
     }
   }
+}
+.modal-no-data-text {
+  text-align: left;
+  font-size: 13px;
 }
 
 /* Mobile tables */
@@ -788,7 +880,7 @@ table.dataTable tbody tr:hover {
 .tabA {
   .chart-table {
     td, th {
-      &:nth-child(1), &:nth-child(5), &:nth-child(6), &:nth-child(7) {
+      &:nth-child(1), &:nth-child(3), &:nth-child(4), &:nth-child(5), &:nth-child(6), &:nth-child(7) {
         @media only screen and (max-width: 768px) {
           display: none;
         }
@@ -885,6 +977,57 @@ table.dataTable tbody tr:hover {
     &.active {
       color: #fff;
       background-color: #dd3c31;
+    }
+  }
+}
+
+.status-selector-container {
+  width: auto;
+  text-align: left;
+  padding: 0 10px 15px 0px;
+  &.status-selector-container-right {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    @media only screen and (max-width: 768px) {
+      display: block;
+      position: relative;
+      padding: 13px 8px;
+    }
+  }
+  .selector-title {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  #statusSelector {
+    width: 200px;
+    display: inline-block;
+    padding: 5px 10px;
+  }
+}
+
+.map-buttons {
+  text-align: right;
+  padding: 10px 20px 0 20px;
+  z-index: 10;
+  height: 50px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 100%;
+  button {
+    border: none;
+    color: #fff;
+    display: inline-block;
+    margin: 5px 0px 5px 5px;
+    padding: 5px 15px;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: 600;
+    background: #3b95d0;
+    cursor: pointer;
+    &.active {
+      background: #2a7aae;
     }
   }
 }

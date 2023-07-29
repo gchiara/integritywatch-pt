@@ -26,43 +26,82 @@ import ChartHeader from './components/ChartHeader.vue';
 
 var vuedata = {
   page: 'tabA',
+  legislature: 'XV',
   previousmandate: false,
   loader: true,
   showInfo: true,
   showShare: true,
   showAllCharts: true,
   chartMargin: 40,
-  travelFilter: 'all',
+  statusFilter: 'all',
+  statusTypes: null,
+  selectedStatus: 'all',
   charts: {
+    map: {
+      title: 'Círculo eleitoral',
+      info: 'Número de Deputados por círculo eleitoral. <i>Informação declarada no seu registo biográfico.</i>'
+    }, 
     party: {
-      title: 'Parties',
-      info: 'Lorem ipsum'
+      title: 'Grupos parlamentares e Deputados não inscritos',
+      info: 'Número de Deputados por grupo parlamentar (representantes eleitos por um partido político ou uma coligação) e de Deputados não inscritos. <i>Informação declarada no seu registo biográfico.</i>'
     },
-    activities: {
-      title: 'Positions',
-      info: 'Lorem ipsum'
+    positions: {
+      title: 'Cargos que desempenham',
+      info: 'Número de cargos que os Deputados Portugueses desempenham na atualidade. <i>Informação declarada no seu registo biográfico.</i>'
     },
     profession: {
-      title: 'Top 10 Professions',
-      info: 'Lorem ipsum'
+      title: 'Top 10 profissões',
+      info: 'Dez profissões mais exercidas pelos Deputados portugueses. <i>Informação declarada no seu registo biográfico.</i>'
     },
     org: {
-      title: 'Top 10 Orgs',
-      info: 'Lorem ipsum'
+      title: 'Comissões parlamentares',
+      info: 'Comissões parlamentares ordenadas pelo número de Deputados que as compõem. <i>Informação declarada no seu registo biográfico.</i>'
+    },
+    topByActivities: {
+      title: 'Top 10 Deputados por Interesses',
+      info: 'Top 10 dos Deputados pelo número de interesses declarados. <i>Informação declarada no seu registo de interesses.</i>'
+    },
+    activitiesAllCargos: {
+      title: 'Interesses: Todos os Cargos/Funções',
+      info: 'Número total de cargos/funções exercidos pelos Deputados. <i>Informação declarada no seu registo de interesses.</i>'
+    },
+    activitiesActiveCargos: {
+      title: 'Interesses: Cargos/Funções Atuais',
+      info: 'Número total de cargos/funções exercidos pelos Deputados na atualidade. <i>Informação declarada no seu registo de interesses.</i>'
+    },
+    activitiesOther: {
+      title: 'Interesses:<br />Outros',
+      info: 'Número total de outros interesses declarados. Dados relativos a apoios ou benefícios, serviços prestados, sociedades detidas pelo próprio e/ou pelo cônjuge, e outras situações. <i>Informação declarada no seu registo de interesses.</i>'
     },
     gender: {
-      title: 'Gender',
-      info: 'Lorem ipsum'
+      title: 'Género',
+      info: 'Número de Deputados por género. <i>Informação declarada no seu registo biográfico.</i>'
+    },
+    regime: {
+      title: 'Regime de bens',
+      info: 'Número de Deputados por regime de bens. <i>Informação declarada no seu registo de interesses.</i> A opção "Não disponível" refere-se aos Deputados cujos registos de interesses não estão disponíveis na respetiva base de dados.'
+    },
+    age: {
+      title: 'Idade',
+      info: 'Número de Deputados por faixa etária. <i>IInformação declarada no seu registo biográfico.</i>'
+    },
+    exclusivity: {
+      title: 'Declaração sobre exclusividade',
+      info: 'Número total de Deputados que exercem - ou não exercem - o seu mandato em regime de exclusividade. <i>Informação declarada no seu registo de interesses.</i> A opção "Não disponível" refere-se aos Deputados cujos registos de interesses não estão disponíveis na respetiva base de dados.'
+    },
+    missingFields: {
+      title: 'Interesses: Declarações potencialmente incompletas',
+      info: 'Número total de campos, por Deputado, para os quais não há informação disponível na base de dados dos registos de interesses.'
     },
     mainTable: {
       chart: null,
       type: 'table',
-      title: 'People',
-      info: 'Lorem Ipsum'
+      title: 'Deputados',
+      info: 'Lista de Deputados ordenados e/ou filtrados de acordo com as suas escolhas. Se pretender voltar a ver a lista completa, clique no botão "Limpar filtros" no canto inferior direito do ecrã.'
     }
   },
   selectedElement: { "P": "", "Sub": ""},
-  modalShowTable: '',
+  modalShowTable: 'a',
   colors: {
     default: "#3B95D0",
     generic: ["#3B95D0", "#1C5075", "#ffa53d", "#FF834D", "#ff4621" ],
@@ -105,21 +144,33 @@ new Vue({
     share: function (platform) {
       if(platform == 'twitter'){
         var thisPage = window.location.href.split('?')[0];
-        var shareText = 'Check out Integrity Watch Portugal! ' + thisPage;
+        var shareText = 'A @transparenciapt lançou hoje a plataforma #IntegrityWatch Portugal, que permite aceder a infos sobre integridade na política em PT, através da monitorização dos dados bio e registos de interesses dos Deputados da @AssembleiaRepub. Descobre mais👉 ' + thisPage;
         var shareURL = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(shareText);
         window.open(shareURL, '_blank');
         return;
       }
       if(platform == 'facebook'){
-        var toShareUrl = 'https://integritywatch.pt';
+        var toShareUrl = 'https://www.integritywatch.transparencia.pt';
         var shareURL = 'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(toShareUrl);
         window.open(shareURL, '_blank', 'toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250,top=300,left=300');
         return;
       }
       if(platform == 'linkedin'){
-        var shareURL = 'https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fintegritywatch.pt&title=Integrity+Watch+Portugal&summary=Integrity+Watch+Portugal&source=integritywatch.nl';
+        var shareURL = 'https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fintegritywatch.transparencia.pt&title=Integrity+Watch+Portugal&summary=Integrity+Watch+Portugal&source=https://integritywatch.transparencia.pt';
         window.open(shareURL, '_blank', 'toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes');
       }
+    },
+    hasInteresses: function (selectedElement) {
+      if (selectedElement.RegistoInteresses.GenCargosMenosTresAnos.GenCargo || 
+        selectedElement.RegistoInteresses.GenCargosMaisTresAnos.GenCargo || 
+        selectedElement.RegistoInteresses.GenApoios.GenApoio || 
+        selectedElement.RegistoInteresses.GenServicoPrestado.GenServicoPrestado || 
+        selectedElement.RegistoInteresses.GenSociedade.GenSociedade || 
+        selectedElement.RegistoInteresses.GenOutraSituacao.GenOutraSituacao)
+      {
+        return true;
+      }
+      return false;
     }
   }
 });
@@ -131,15 +182,20 @@ $(function () {
 
 //Charts
 var charts = {
+  map: {
+    chart: dc.geoChoroplethChart("#map_chart"),
+    type: 'map',
+    divId: 'map_chart'
+  },
   party: {
     chart: dc.rowChart("#party_chart"),
     type: 'row',
     divId: 'party_chart'
   },
-  activities: {
-    chart: dc.pieChart("#activities_chart"),
+  positions: {
+    chart: dc.pieChart("#positions_chart"),
     type: 'pie',
-    divId: 'activities_chart'
+    divId: 'positions_chart'
   },
   profession: {
     chart: dc.rowChart("#profession_chart"),
@@ -151,13 +207,51 @@ var charts = {
     type: 'row',
     divId: 'org_chart'
   },
-  /*
+  activitiesAllCargos: {
+    chart: dc.pieChart("#activitiesallcargos_chart"),
+    type: 'pie',
+    divId: 'activitiesallcargos_chart'
+  },
+  activitiesActiveCargos: {
+    chart: dc.pieChart("#activitiesactivecargos_chart"),
+    type: 'pie',
+    divId: 'activitiesactivecargos_chart'
+  },
+  activitiesOther: {
+    chart: dc.pieChart("#activitiesother_chart"),
+    type: 'pie',
+    divId: 'activitiesother_chart'
+  },
+  topByActivities: {
+    chart: dc.rowChart("#topbyactivities_chart"),
+    type: 'row',
+    divId: 'topbyactivities_chart'
+  },
   gender: {
     chart: dc.pieChart("#gender_chart"),
     type: 'pie',
     divId: 'gender_chart'
   },
-  */
+  regime: {
+    chart: dc.pieChart("#regime_chart"),
+    type: 'pie',
+    divId: 'regime_chart'
+  },
+  age: {
+    chart: dc.barChart("#age_chart"),
+    type: 'bar',
+    divId: 'age_chart'
+  },
+  exclusivity: {
+    chart: dc.pieChart("#exclusivity_chart"),
+    type: 'pie',
+    divId: 'exclusivity_chart'
+  },
+  missingFields: {
+    chart: dc.rowChart("#missingfields_chart"),
+    type: 'row',
+    divId: 'missingfields_chart'
+  },
   mainTable: {
     chart: null,
     type: 'table',
@@ -179,6 +273,9 @@ var recalcCharsLength = function(width) {
 };
 var calcPieSize = function(divId) {
   var newWidth = recalcWidth(divId);
+  if(newWidth > 400) {
+    newWidth = 400;
+  }
   var sizes = {
     'width': newWidth,
     'height': 0,
@@ -188,11 +285,11 @@ var calcPieSize = function(divId) {
     'legendY': 0
   }
   if(newWidth < 300) { 
-    sizes.height = newWidth + 170;
-    sizes.radius = (newWidth)/2;
-    sizes.innerRadius = (newWidth)/4;
-    sizes.cy = (newWidth)/2;
-    sizes.legendY = (newWidth) + 30;
+    sizes.height = newWidth*0.85 + 170;
+    sizes.radius = (newWidth*0.85)/2;
+    sizes.innerRadius = (newWidth*0.85)/4;
+    sizes.cy = (newWidth*0.85)/2;
+    sizes.legendY = (newWidth*0.85) + 30;
   } else {
     sizes.height = newWidth*0.75 + 170;
     sizes.radius = (newWidth*0.75)/2;
@@ -204,7 +301,7 @@ var calcPieSize = function(divId) {
 };
 var resizeGraphs = function() {
   for (var c in charts) {
-    if((c == 'gender' || c == 'age') && vuedata.showAllCharts == false){
+    if((c == 'gender' || c == 'age' || c == 'regime') && vuedata.showAllCharts == false){
       
     } else {
       var sizes = calcPieSize(charts[c].divId);
@@ -238,6 +335,16 @@ var resizeGraphs = function() {
         charts[c].chart.redraw();
       } else if(charts[c].type == 'cloud') {
         charts[c].chart.size(recalcWidthWordcloud());
+        charts[c].chart.redraw();
+      } else if(charts[c].type == 'map') {
+        var newProjection = d3.geoMercator()
+          .center([11,45]) 
+          .scale(newWidth*1)
+          .translate([0, 0]);
+          charts[c].chart.height(500);
+        newProjection.fitSize([newWidth,400],{"type": "FeatureCollection","features":vuedata.fixedFeatures})
+        charts[c].chart.width(newWidth);
+        charts[c].chart.projection(newProjection);
         charts[c].chart.redraw();
       }
     }
@@ -294,64 +401,155 @@ function fixArray(arr) {
   return fixedArr;
 }
 
-var declarationsDataset = './data/declarations.json';
+function getNumRange(num) {
+  var activitiesRange = '0';
+  if(num > 10 ){
+    activitiesRange = '> 10';
+  } else if(num >= 5 ){
+    activitiesRange = '5 - 10';
+  } else if(num >= 3){
+    activitiesRange= '3 - 4';
+  } else if(num >= 1){
+    activitiesRange = '1 - 2';
+  } else {
+    activitiesRange = '0';
+  }
+  return activitiesRange;
+}
+
+function getAgeRange(num) {
+  //['N/A', '< 30', '30 - 39', '40 - 49', '50 - 59', '60 - 69', '70+']
+  var ageRange = 'N/A';
+  if(isNaN(parseInt(num))) {
+    return 'N/A';
+  }
+  if(num < 30 ){
+    ageRange  = '< 30';
+  } else if(num < 40){
+    ageRange  = '30 - 39';
+  } else if(num < 50){
+    ageRange  = '40 - 49';
+  } else if(num < 60){
+    ageRange  = '50 - 59';
+  } else if(num < 70){
+    ageRange  = '60 - 69';
+  } else {
+    ageRange = '70+';
+  }
+  return ageRange;
+}
+
+function getAge(dateString) {
+  var today = new Date();
+  var birthDate = new Date(dateString);
+  var age = today.getFullYear() - birthDate.getFullYear();
+  var m = today.getMonth() - birthDate.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+      age--;
+  }
+  return age;
+}
+
+var declarationsDataset = './data/mpsXV.json';
 
 //Load data and generate charts
+var peopleStatusesDebug = [];
 json(declarationsDataset, (err, declarations) => {
-  var people = declarations.RegistoBiografico.RegistoBiograficoList.pt_ar_wsgode_objectos_DadosRegistoBiograficoWeb;
-  var interests = declarations.RegistoBiografico.RegistoInteressesV2List.pt_ar_wsgode_objectos_DadosDeputadoRgiWebV2;
+  //var people = declarations.RegistoBiografico.RegistoBiograficoList.pt_ar_wsgode_objectos_DadosRegistoBiograficoWeb;
+  var people = declarations;
+  var statusTypes = [];
   //Loop through data to apply fixes and calculations
   _.each(people, function (d) {
-    //Find latest party
+    d.sDebugEntry = {}
+    d.sDebugEntry.name = d.cadNomeCompleto;
+
+    //Add status to array if not present
+    d.status = null;
+    var statusesData = d.basicInfo.depSituacao.pt_ar_wsgode_objectos_DadosSituacaoDeputado;
+    if(statusesData.sioDes) {
+      d.status = statusesData.sioDes;
+    } else {
+      _.each(statusesData, function (s) {
+         if(!s.sioDtFim) {
+           d.status = s.sioDes;
+         }
+     });
+    }
+    if(d.status && statusTypes.indexOf(d.status) == -1) {
+      statusTypes.push(d.status);
+    }
+    d.sDebugEntry.status = d.status;
+    //d.sDebugEntry.statusAll = d.basicInfo.depSituacao.pt_ar_wsgode_objectos_DadosSituacaoDeputado;
+    peopleStatusesDebug.push(d.sDebugEntry);
+
+    //Esclusividade
+    d.exclusivityString = 'Não disponível';
+    if(d.RegistoInteresses && d.RegistoInteresses.Exclusividade && d.RegistoInteresses.Exclusividade.Exclusividade) {
+      if(d.RegistoInteresses.Exclusividade.Exclusividade == "true") {
+        d.exclusivityString = 'Exclusividade';
+      } else if(d.RegistoInteresses.Exclusividade.Exclusividade == "false") {
+        d.exclusivityString = 'Não';
+      } else {
+        d.exclusivityString = d.RegistoInteresses.Exclusividade.Exclusividade;
+      }
+    }
+    //Age
+    if(!d.cadDtNascimento) {
+      d.age = "N/A";
+    } else {
+      d.age = getAge(d.cadDtNascimento);
+    }
+    d.ageRange = getAgeRange(d.age);
+    //Spouse name
+    d.spouse = 'N/A';
+    d.propertyRegime = 'Não disponível';
+    if(d.RegistoInteresses) {
+      d.spouse = d.RegistoInteresses.GenDadosPessoais.NomeConjuge;
+      d.propertyRegime = d.RegistoInteresses.GenDadosPessoais.RegimeBens;
+    }
+    //Find party corresponding with current legislation (legislation num is set as vuedata parameter)
     d.party = "N/A";
     d.partyFullName = "N/A";
+    d.area = null;
     var partiesLegInfo = d.cadDeputadoLegis.pt_ar_wsgode_objectos_DadosDeputadoLegis;
     partiesLegInfo = fixArray(partiesLegInfo);
     if(partiesLegInfo && partiesLegInfo.length > 0) {
-      d.party = partiesLegInfo[0].parSigla;
-      d.partyFullName = partiesLegInfo[0].parDes;
+      _.each(partiesLegInfo, function (pInfo) {
+        if( pInfo.legDes == vuedata.legislature) {
+          d.party = pInfo.gpSigla;
+          d.partyFullName = pInfo.gpDes;
+          d.area = pInfo.ceDes;
+        }
+      });
     }
     //Clean profession 
     d.profession = 'N/A';
     if(d.cadProfissao) {
       d.profession = d.cadProfissao.charAt(0).toUpperCase() + d.cadProfissao.slice(1).toLowerCase();
     }
-    //Get this persons's infofrom interests list
-    //Commented out for now because this seems to just list married state and profession
-    /*
-    d.interests = [];
-    var thisInterests = _.filter(interests, function (x) { 
-      return x.cadId == d.cadId;
-    });
-    if(thisInterests) {
-      d.interests = thisInterests;
-    }
-    console.log(d.interests);
-    */
-    //Activities
-    d.activitiesNum = 0;
-    d.activitiesRange = '';
+    //Get this person's links
+    d.rbUrl = 'https://www.parlamento.pt/DeputadoGP/Paginas/Biografia.aspx?BID='+d.cadId;
+    d.riUrl = 'https://www.parlamento.pt/DeputadoGP/Paginas/RegInteresses_v5.aspx?BID='+d.cadId+'&leg='+vuedata.legislature;
+    //Activities - Adding AllCargos and Others
+    d.activitiesNumTot = 0;
+    d.activitiesNumTot = d.activitiesCounts.AllCargos + d.activitiesCounts.Other;
+    totalActivities += d.activitiesNumTot;
+    d.positionsNumTot = 0;
+    //Positions
     if(d.cadCargosFuncoes && d.cadCargosFuncoes.pt_ar_wsgode_objectos_DadosCargosFuncoes) {
       d.cadCargosFuncoes.pt_ar_wsgode_objectos_DadosCargosFuncoes = fixArray(d.cadCargosFuncoes.pt_ar_wsgode_objectos_DadosCargosFuncoes);
-      //d.activitiesNum = d.cadCargosFuncoes.pt_ar_wsgode_objectos_DadosCargosFuncoes.length;
+      //d.activitiesNumTot = d.cadCargosFuncoes.pt_ar_wsgode_objectos_DadosCargosFuncoes.length;
       _.each(d.cadCargosFuncoes.pt_ar_wsgode_objectos_DadosCargosFuncoes, function (act) {
           if(act.funAntiga == 'N') {
-            d.activitiesNum ++;
-            totalActivities ++;
+            d.positionsNumTot ++;
           }
       });
     }
-    if(d.activitiesNum > 10 ){
-      d.activitiesRange = '> 10';
-    } else if(d.activitiesNum >= 5 ){
-      d.activitiesRange = '5 - 10';
-    } else if(d.activitiesNum >= 3){
-      d.activitiesRange= '3 - 4';
-    } else if(d.activitiesNum >= 1){
-      d.activitiesRange = '1 - 2';
-    } else {
-      d.activitiesRange = '0';
-    }
+    d.activitiesTotRange = getNumRange(d.activitiesNumTot);
+    d.positionsRange = getNumRange(d.positionsNumTot);
+    d.activitiesAllCargosRange = getNumRange(d.activitiesCounts.AllCargos);
+    d.activitiesActiveCargosRange = getNumRange(d.activitiesCounts.ActiveCargos);
+    d.activitiesOtherRange = getNumRange(d.activitiesCounts.Other);
     //Qualifications
     if(d.cadHabilitacoes && d.cadHabilitacoes.pt_ar_wsgode_objectos_DadosHabilitacoes) {
       d.cadHabilitacoes.pt_ar_wsgode_objectos_DadosHabilitacoes = fixArray(d.cadHabilitacoes.pt_ar_wsgode_objectos_DadosHabilitacoes);
@@ -364,7 +562,51 @@ json(declarationsDataset, (err, declarations) => {
         d.orgsList.push(org.orgDes);
       });
     }
+    //Fix structure of interesses
+    if(d.RegistoInteresses) {
+      if(d.RegistoInteresses.GenApoios.GenApoio) {
+        d.RegistoInteresses.GenApoios.GenApoio = fixArray(d.RegistoInteresses.GenApoios.GenApoio);
+      }
+      if(d.RegistoInteresses.GenCargosMaisTresAnos.GenCargo) {
+        d.RegistoInteresses.GenCargosMaisTresAnos.GenCargo = fixArray(d.RegistoInteresses.GenCargosMaisTresAnos.GenCargo);
+      }
+      if(d.RegistoInteresses.GenCargosMenosTresAnos.GenCargo) {
+        d.RegistoInteresses.GenCargosMenosTresAnos.GenCargo = fixArray(d.RegistoInteresses.GenCargosMenosTresAnos.GenCargo);
+      }
+      if(d.RegistoInteresses.GenServicoPrestado.GenServicoPrestado) {
+        d.RegistoInteresses.GenServicoPrestado.GenServicoPrestado = fixArray(d.RegistoInteresses.GenServicoPrestado.GenServicoPrestado);
+      }
+      if(d.RegistoInteresses.GenSociedade.GenSociedade) {
+        d.RegistoInteresses.GenSociedade.GenSociedade = fixArray(d.RegistoInteresses.GenSociedade.GenSociedade);
+      }
+      if(d.RegistoInteresses.GenOutraSituacao.GenOutraSituacao) {
+        d.RegistoInteresses.GenOutraSituacao.GenOutraSituacao = fixArray(d.RegistoInteresses.GenOutraSituacao.GenOutraSituacao);
+      }
+      //GenIncompatibilidade ?
+    }
+    //Count missing fields in interesses
+    d.missingInterestFields = 0;
+    if(!d.RegistoInteresses || !d.RegistoInteresses.GenApoios.GenApoio || d.RegistoInteresses.GenApoios.GenApoio.length == 0) {
+      d.missingInterestFields ++;
+    }
+    if(!d.RegistoInteresses || !d.RegistoInteresses.GenCargosMaisTresAnos.GenCargo || d.RegistoInteresses.GenCargosMaisTresAnos.GenCargo.length == 0) {
+      d.missingInterestFields ++;
+    }
+    if(!d.RegistoInteresses || !d.RegistoInteresses.GenCargosMenosTresAnos.GenCargo || d.RegistoInteresses.GenCargosMenosTresAnos.GenCargo.length == 0) {
+      d.missingInterestFields ++;
+    }
+    if(!d.RegistoInteresses || !d.RegistoInteresses.GenServicoPrestado.GenServicoPrestado || d.RegistoInteresses.GenServicoPrestado.GenServicoPrestado.length == 0) {
+      d.missingInterestFields ++;
+    }
+    if(!d.RegistoInteresses || !d.RegistoInteresses.GenSociedade.GenSociedade || d.RegistoInteresses.GenSociedade.GenSociedade.length == 0) {
+      d.missingInterestFields ++;
+    }
+    if(!d.RegistoInteresses || !d.RegistoInteresses.GenOutraSituacao.GenOutraSituacao || d.RegistoInteresses.GenOutraSituacao.GenOutraSituacao.length == 0) {
+      d.missingInterestFields ++;
+    }
   });
+  vuedata.statusTypes = statusTypes;
+
 
   //Set totals for footer counters
   $('.count-box-activities .total-count-act').text(totalActivities);
@@ -373,9 +615,69 @@ json(declarationsDataset, (err, declarations) => {
   var ndx = crossfilter(people);
 
   var searchDimension = ndx.dimension(function (d) {
-      var entryString = d.cadNomeCompleto + ' ' + d.cadProfissao + ' ' + d.party;
+      var entryString = d.cadNomeCompleto + ' ' + d.cadProfissao + ' ' + d.party + ' ' + d.partyFullName;
       return entryString.toLowerCase();
   });
+
+  var statusDimension = ndx.dimension(function (d) {
+    return d.status;
+  });
+
+  var areaDimension = ndx.dimension(function (d) {
+    return d.area;
+  });
+
+  //MAP CHART
+  var createMapChart = function() {
+    json('./data/map.geojson', (err, jsonmap) => {
+      //jsonmap.features
+      _.each(jsonmap.features, function (p) {
+        
+      });
+
+      var fixedFeatures = jsonmap.features.map(function(feature) {
+        return turf.rewind(feature,{reverse:true});
+      })
+      vuedata.fixedFeatures = fixedFeatures;
+
+      var chart = charts.map.chart;
+      var width = recalcWidth(charts.map.divId);
+      var height = 400;
+      var mapDimension = ndx.dimension(function (d) {
+        return d.area;
+      });
+      var group = mapDimension.group().reduceSum(function (d) { return 1; });
+      //var prov = topojson.feature(jsonmap, jsonmap.objects["spain-provinces"]).features;
+      var scale = width*4;
+      var translate = [0, 0];
+      var projection = d3.geoMercator()
+        .center([-3,42.5])
+        .scale(1)
+        .translate(translate);
+      projection.fitSize([width,height],{"type": "FeatureCollection","features":fixedFeatures})
+      var centered;
+      function clicked(d) {
+      }
+  
+      chart
+        .width(width)
+        .height(function(d){ return height; })
+        .dimension(mapDimension)
+        .group(group)
+        .projection(projection)
+        .colors(d3.scaleQuantize().range(["#E2F2FF", "#C4E4FF", "#9ED2FF", "#81C5FF", "#6BBAFF", "#51AEFF", "#36A2FF", "#1E96FF", "#0089FF", "#0061B5"]))
+        .colorDomain([1, 20])
+        .colorCalculator(function (d) { return d == 0 ? '#eee' : chart.colors()(d);})
+        .overlayGeoJson(fixedFeatures, 'province', function(d) {
+          return d.properties.dis_name_upper;
+        })
+        .title(function (d) {
+          return d.key + ': ' + d.value;
+        })
+        .on('renderlet', function(chart) {});
+      chart.render();
+    });
+  }
 
   //CHART 1
   var createPartyChart = function() {
@@ -399,7 +701,7 @@ json(declarationsDataset, (err, declarations) => {
     var charsLength = recalcCharsLength(width);
     chart
       .width(width)
-      .height(400)
+      .height(440)
       .margins({top: 0, left: 0, right: 0, bottom: 20})
       .group(filteredGroup)
       .dimension(dimension)
@@ -421,15 +723,15 @@ json(declarationsDataset, (err, declarations) => {
     chart.render();
   }
 
-  //CHART 2 - Activities
-  var createActivitiesChart = function() {
-    var chart = charts.activities.chart;
+  //CHART 2 - Positions
+  var createPositionsChart = function() {
+    var chart = charts.positions.chart;
     var dimension = ndx.dimension(function (d) {
-      return d.activitiesRange;
+      return d.positionsRange;
     });
     var group = dimension.group().reduceSum(function (d) { return 1; });
     var order = ['0','1 - 2','3 - 4','5 - 10', '> 10'];
-    var sizes = calcPieSize(charts.activities.divId);
+    var sizes = calcPieSize(charts.positions.divId);
     chart
       .width(sizes.width)
       .height(sizes.height)
@@ -475,7 +777,7 @@ json(declarationsDataset, (err, declarations) => {
     var charsLength = recalcCharsLength(width);
     chart
       .width(width)
-      .height(400)
+      .height(405)
       .margins({top: 0, left: 0, right: 0, bottom: 20})
       .group(filteredGroup)
       .dimension(dimension)
@@ -508,7 +810,7 @@ json(declarationsDataset, (err, declarations) => {
     var filteredGroup = (function(source_group) {
       return {
         all: function() {
-          return source_group.top(10).filter(function(d) {
+          return source_group.top(100).filter(function(d) {
             return (d.value != 0);
           });
         }
@@ -518,7 +820,7 @@ json(declarationsDataset, (err, declarations) => {
     var charsLength = recalcCharsLength(width);
     chart
       .width(width)
-      .height(400)
+      .height(470)
       .margins({top: 0, left: 0, right: 0, bottom: 20})
       .group(filteredGroup)
       .dimension(dimension)
@@ -539,11 +841,226 @@ json(declarationsDataset, (err, declarations) => {
     chart.render();
   }
 
-  //CHART 4 - Gender
+  //CHART 5 - Activities 1
+  var createActivitiesAllCargosChart = function() {
+    var chart = charts.activitiesAllCargos.chart;
+    var dimension = ndx.dimension(function (d) {
+      return d.activitiesAllCargosRange;
+    });
+    var group = dimension.group().reduceSum(function (d) { return 1; });
+    var order = ['0','1 - 2','3 - 4','5 - 10', '> 10'];
+    var sizes = calcPieSize(charts.activitiesAllCargos.divId);
+    chart
+      .width(sizes.width)
+      .height(sizes.height)
+      .cy(sizes.cy)
+      .ordering(function(d) { return order.indexOf(d)})
+      .innerRadius(sizes.innerRadius)
+      .radius(sizes.radius)
+      .legend(dc.legend().x(0).y(sizes.legendY).gap(10).autoItemWidth(true).horizontal(false).legendWidth(sizes.width).legendText(function(d) { 
+        var thisKey = d.name;
+        if(thisKey.length > 40){
+          return thisKey.substring(0,40) + '...';
+        }
+        return thisKey;
+      }))
+      .title(function(d){
+        return d.key + ': ' + d.value;
+      })
+      .dimension(dimension)
+      .ordinalColors(vuedata.colors.generic)
+      .group(group);
+    chart.render();
+  }
+
+  //CHART 5 - Activities 2
+  var createActivitiesActiveCargosChart = function() {
+    var chart = charts.activitiesActiveCargos.chart;
+    var dimension = ndx.dimension(function (d) {
+      return d.activitiesActiveCargosRange;
+    });
+    var group = dimension.group().reduceSum(function (d) { return 1; });
+    var order = ['0','1 - 2','3 - 4','5 - 10', '> 10'];
+    var sizes = calcPieSize(charts.activitiesActiveCargos.divId);
+    chart
+      .width(sizes.width)
+      .height(sizes.height)
+      .cy(sizes.cy)
+      .ordering(function(d) { return order.indexOf(d)})
+      .innerRadius(sizes.innerRadius)
+      .radius(sizes.radius)
+      .legend(dc.legend().x(0).y(sizes.legendY).gap(10).autoItemWidth(true).horizontal(false).legendWidth(sizes.width).legendText(function(d) { 
+        var thisKey = d.name;
+        if(thisKey.length > 40){
+          return thisKey.substring(0,40) + '...';
+        }
+        return thisKey;
+      }))
+      .title(function(d){
+        return d.key + ': ' + d.value;
+      })
+      .dimension(dimension)
+      .ordinalColors(vuedata.colors.generic)
+      .group(group);
+    chart.render();
+  }
+
+  //CHART 5 - Activities 3
+  var createActivitiesOtherChart = function() {
+    var chart = charts.activitiesOther.chart;
+    var dimension = ndx.dimension(function (d) {
+      return d.activitiesOtherRange;
+    });
+    var group = dimension.group().reduceSum(function (d) { return 1; });
+    var order = ['0','1 - 2','3 - 4','5 - 10', '> 10'];
+    var sizes = calcPieSize(charts.activitiesOther.divId);
+    chart
+      .width(sizes.width)
+      .height(sizes.height)
+      .cy(sizes.cy)
+      .ordering(function(d) { return order.indexOf(d)})
+      .innerRadius(sizes.innerRadius)
+      .radius(sizes.radius)
+      .legend(dc.legend().x(0).y(sizes.legendY).gap(10).autoItemWidth(true).horizontal(false).legendWidth(sizes.width).legendText(function(d) { 
+        var thisKey = d.name;
+        if(thisKey.length > 40){
+          return thisKey.substring(0,40) + '...';
+        }
+        return thisKey;
+      }))
+      .title(function(d){
+        return d.key + ': ' + d.value;
+      })
+      .dimension(dimension)
+      .ordinalColors(vuedata.colors.generic)
+      .group(group);
+    chart.render();
+  }
+
+  //CHART 6 - Top Mps by Activities
+  var createTopByActivitiesChart = function() {
+    var chart = charts.topByActivities.chart;
+    var dimension = ndx.dimension(function (d) {
+        return d.cadNomeCompleto;
+    });
+    var group = dimension.group().reduceSum(function (d) {
+      return d.activitiesNumTot;
+    });
+    var filteredGroup = (function(source_group) {
+      return {
+        all: function() {
+          return source_group.top(10).filter(function(d) {
+            return (d.value != 0);
+          });
+        }
+      };
+    })(group);
+    var width = recalcWidth(charts.topByActivities.divId);
+    var charsLength = recalcCharsLength(width);
+    chart
+      .width(width)
+      .height(380)
+      .margins({top: 0, left: 0, right: 0, bottom: 20})
+      .group(filteredGroup)
+      .dimension(dimension)
+      .colorCalculator(function(d, i) {
+        return vuedata.colors.default;
+      })
+      .label(function (d) {
+          if(d.key.length > charsLength){
+            return d.key.substring(0,charsLength) + '...';
+          }
+          return d.key;
+      })
+      .title(function (d) {
+          return d.key + ': ' + d.value;
+      })
+      .elasticX(true)
+      .xAxis().ticks(4);
+    chart.render();
+  }
+
+  //MISSING FIELDS CHART
+  var createMissingFieldsChart = function() {
+    var chart = charts.missingFields.chart;
+    var dimension = ndx.dimension(function (d) {
+      if(d.missingInterestFields == 1) {
+        return d.missingInterestFields + ' campo';
+      }
+      return d.missingInterestFields + ' campos';
+    });
+    var group = dimension.group().reduceSum(function (d) {
+      return 1;
+    });
+    var order = ['6 campos','5 campos','4 campos','3 campos','2 campos','1 campo'];
+    var filteredGroup = (function(source_group) {
+      return {
+        all: function() {
+          return source_group.top(10).filter(function(d) {
+            return (d.value != 0 && d.key != '0 campos');
+          });
+        }
+      };
+    })(group);
+    var width = recalcWidth(charts.missingFields.divId);
+    var charsLength = recalcCharsLength(width);
+    chart
+      .width(width)
+      .height(350)
+      .margins({top: 0, left: 0, right: 0, bottom: 20})
+      .ordering(function(d) { return order.indexOf(d.key)})
+      .group(filteredGroup)
+      .dimension(dimension)
+      .colorCalculator(function(d, i) {
+        return vuedata.colors.default;
+      })
+      .label(function (d) {
+          if(d.key.length > charsLength){
+            return d.key.substring(0,charsLength) + '...';
+          }
+          return d.key;
+      })
+      .title(function (d) {
+          return d.key + ': ' + d.value + ' deputados';
+      })
+      .elasticX(true)
+      .xAxis().ticks(4);
+    chart.render();
+  }
+
+  //CHART 7 - Age
+  var createAgeChart = function() {
+    var chart = charts.age.chart;
+    var dimension = ndx.dimension(function (d) {
+        return d.ageRange;
+    });
+    var group = dimension.group().reduceSum(function (d) {
+        return 1;
+    });
+    var width = recalcWidth(charts.age.divId);
+    chart
+      .width(width)
+      .height(400)
+      .group(group)
+      .dimension(dimension)
+      .on("preRender",(function(chart,filter){
+      }))
+      .margins({top: 0, right: 10, bottom: 20, left: 20})
+      .x(d3.scaleBand().domain(['< 30', '30 - 39', '40 - 49', '50 - 59', '60 - 69', '70+']))
+      .xUnits(dc.units.ordinal)
+      .gap(10)
+      .ordinalColors(vuedata.colors.generic)
+      .elasticY(true);
+    chart.render();
+  }
+
+  //CHART 8 - Gender
   var createGenderChart = function() {
     var chart = charts.gender.chart;
     var dimension = ndx.dimension(function (d) {
       if(!d.cadSexo) { return "N/A"; }
+      if(d.cadSexo == 'M') { return 'Masculino'; }
+      if(d.cadSexo == 'F') { return 'Feminino'; }
       return d.cadSexo;
     });
     var group = dimension.group().reduceSum(function (d) { return 1; });
@@ -554,7 +1071,7 @@ json(declarationsDataset, (err, declarations) => {
       .cy(sizes.cy)
       .innerRadius(sizes.innerRadius)
       .radius(sizes.radius)
-      .legend(dc.legend().x(0).y(sizes.legendY).gap(10).autoItemWidth(true).horizontal(true).legendWidth(sizes.width).legendText(function(d) { 
+      .legend(dc.legend().x(0).y(sizes.legendY).gap(10).autoItemWidth(true).horizontal(false).legendWidth(sizes.width).legendText(function(d) { 
         var thisKey = d.name;
         if(thisKey.length > 40){
           return thisKey.substring(0,40) + '...';
@@ -569,13 +1086,82 @@ json(declarationsDataset, (err, declarations) => {
       .group(group);
     chart.render();
   }
+
+  //CHART 9 - Regime
+  var createRegimeChart = function() {
+    var chart = charts.regime.chart;
+    var dimension = ndx.dimension(function (d) {
+      if(!d.propertyRegime) { return "N/A"; }
+      return d.propertyRegime;
+    });
+    var group = dimension.group().reduceSum(function (d) { return 1; });
+    var sizes = calcPieSize(charts.regime.divId);
+    chart
+      .width(sizes.width)
+      .height(sizes.height)
+      .cy(sizes.cy)
+      .innerRadius(sizes.innerRadius)
+      .radius(sizes.radius)
+      .legend(dc.legend().x(0).y(sizes.legendY).gap(10).autoItemWidth(true).horizontal(false).legendWidth(sizes.width).legendText(function(d) { 
+        var thisKey = d.name;
+        if(thisKey.length > 40){
+          return thisKey.substring(0,40) + '...';
+        }
+        return thisKey;
+      }))
+      .title(function(d){
+        return d.key + ': ' + d.value;
+      })
+      .ordinalColors(vuedata.colors.generic)
+      .dimension(dimension)
+      .group(group);
+    chart.render();
+  }
+
+  //CHART 10 - Exclusividade
+  var createExclusivityChart = function() {
+    var chart = charts.exclusivity.chart;
+    var dimension = ndx.dimension(function (d) {
+      return d.exclusivityString;
+    });
+    var group = dimension.group().reduceSum(function (d) { return 1; });
+    var sizes = calcPieSize(charts.exclusivity.divId);
+    chart
+      .width(sizes.width)
+      .height(sizes.height)
+      .cy(sizes.cy)
+      .innerRadius(sizes.innerRadius)
+      .radius(sizes.radius)
+      .legend(dc.legend().x(0).y(sizes.legendY).gap(10).autoItemWidth(true).horizontal(false).legendWidth(sizes.width).legendText(function(d) { 
+        var thisKey = d.name;
+        if(thisKey.length > 40){
+          return thisKey.substring(0,40) + '...';
+        }
+        return thisKey;
+      }))
+      .title(function(d){
+        return d.key + ': ' + d.value;
+      })
+      .dimension(dimension)
+      .ordinalColors(vuedata.colors.generic)
+      .group(group);
+    chart.render();
+  }
   
   //TABLE
   var createTable = function() {
     var count=0;
     charts.mainTable.chart = $("#dc-data-table").dataTable({
       "language": {
-        //"emptyTable": ""
+        "info": "A mostrar _START_ a _END_ de _TOTAL_ entradas",
+        "lengthMenu": "Mostrar _MENU_ entradas",
+        "search": "Search",
+        "paginate": {
+          "first":      "First",
+          "last":       "Last",
+          "next":       "Seguinte",
+          "previous":   "Anterior"
+        }
       },
       "columnDefs": [
         {
@@ -617,9 +1203,59 @@ json(declarationsDataset, (err, declarations) => {
           "searchable": false,
           "orderable": true,
           "targets": 4,
+          "className": "dt-body-center",
           "defaultContent":"N/A",
           "data": function(d) {
-            return d.activitiesNum;
+            if(d.RegistoInteresses && d.RegistoInteresses.GenApoios.GenApoio) {
+              return d.RegistoInteresses.GenApoios.GenApoio.length;
+            }
+            return 0;
+          }
+        },
+        {
+          "searchable": false,
+          "orderable": true,
+          "targets": 5,
+          "className": "dt-body-center",
+          "defaultContent":"N/A",
+          "data": function(d) {
+            if(d.RegistoInteresses && d.RegistoInteresses.GenServicoPrestado.GenServicoPrestado) {
+              return d.RegistoInteresses.GenServicoPrestado.GenServicoPrestado.length;
+            }
+            return 0;
+          }
+        },
+        {
+          "searchable": false,
+          "orderable": true,
+          "targets": 6,
+          "className": "dt-body-center",
+          "defaultContent":"N/A",
+          "data": function(d) {
+            if(d.RegistoInteresses && d.RegistoInteresses.GenSociedade.GenSociedade) {
+              return d.RegistoInteresses.GenSociedade.GenSociedade.length;
+            }
+            return 0;
+          }
+        },
+        {
+          "searchable": false,
+          "orderable": true,
+          "targets": 7,
+          "className": "dt-body-center",
+          "defaultContent":"N/A",
+          "data": function(d) {
+            return d.activitiesCounts.ActiveCargos;
+          }
+        },
+        {
+          "searchable": false,
+          "orderable": true,
+          "targets": 8,
+          "className": "dt-body-center",
+          "defaultContent":"N/A",
+          "data": function(d) {
+            return d.activitiesCounts.AllCargos - d.activitiesCounts.ActiveCargos;
           }
         }
       ],
@@ -645,6 +1281,7 @@ json(declarationsDataset, (err, declarations) => {
       datatable.DataTable().draw();
 
     $('#dc-data-table tbody').on('click', 'tr', function () {
+      //vuedata.modalShowTable = 'a';
       var data = datatable.DataTable().row( this ).data();
       vuedata.selectedElement = data;
       $('#detailsModal').modal();
@@ -686,6 +1323,34 @@ json(declarationsDataset, (err, declarations) => {
     }
   }
 
+  //Europa and fora de europa buttons
+  $('#EUROPA').click(function () {
+    $('.map-buttons button').removeClass('active');
+    $(this).addClass('active');
+    areaDimension.filter(function (d) { 
+      return d == 'EUROPA';
+    });
+    dc.redrawAll();
+    RefreshTable();
+    $('#map_chart svg .layer0 .province').each(function(i) {
+      $(this).removeClass('selected');
+      $(this).addClass('deselected');
+    });
+  });
+  $('#FORA_DA_EUROPA').click(function () {
+    $('.map-buttons button').removeClass('active');
+    $(this).addClass('active');
+    areaDimension.filter(function (d) { 
+      return d == 'FORA DA EUROPA';
+    });
+    dc.redrawAll();
+    RefreshTable();
+    $('#map_chart svg .layer0 .province').each(function(i) {
+      $(this).removeClass('selected');
+      $(this).addClass('deselected');
+    });
+  });
+
   //Reset charts
   var resetGraphs = function() {
     for (var c in charts) {
@@ -694,19 +1359,43 @@ json(declarationsDataset, (err, declarations) => {
       }
     }
     searchDimension.filter(null);
+    statusDimension.filter(null);
+    areaDimension.filter(null);
+    vuedata.selectedStatus = 'all';
     $('#search-input').val('');
     dc.redrawAll();
   }
   $('.reset-btn').click(function(){
     resetGraphs();
   })
+
+  //Status selector
+  $( "#statusSelector" ).change(function() {
+    statusDimension.filter(function(d) { 
+      if(vuedata.selectedStatus == 'all') {
+        return true;
+      } else {
+        return d == vuedata.selectedStatus;
+      } 
+    });
+    dc.redrawAll();
+  });
   
   //Render charts
+  createMapChart();
   createPartyChart();
-  createActivitiesChart();
+  createPositionsChart();
   createTopProfessionsChart();
   createTopOrgsChart();
-  //createGenderChart();
+  createActivitiesAllCargosChart();
+  createActivitiesActiveCargosChart();
+  createActivitiesOtherChart();
+  createTopByActivitiesChart();
+  createAgeChart();
+  createGenderChart();
+  createRegimeChart();
+  createExclusivityChart();
+  createMissingFieldsChart();
   createTable();
 
   $('.dataTables_wrapper').append($('.dataTables_length'));
@@ -749,7 +1438,7 @@ json(declarationsDataset, (err, declarations) => {
         if (!d.cadId) {
           return p;
         }
-        p.actnum = +d.activitiesNum;
+        p.actnum = +d.activitiesNumTot;
         return p;
       },
       function(p,d) {  
@@ -757,7 +1446,7 @@ json(declarationsDataset, (err, declarations) => {
         if (!d.cadId) {
           return p;
         }
-        p.actnum = +d.activitiesNum;
+        p.actnum = +d.activitiesNumTot;
         return p;
       },
       function(p,d) {  
