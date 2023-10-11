@@ -26,6 +26,7 @@ import ChartHeader from './components/ChartHeader.vue';
 
 var vuedata = {
   page: 'tabA',
+  supportedLegislatures: ['XV', 'XIV'],
   legislature: 'XV',
   previousmandate: false,
   loader: true,
@@ -351,6 +352,11 @@ var resizeGraphs = function() {
   }
 };
 
+var locale = d3.formatLocale({
+  thousands: "",
+  grouping: [3]
+});
+
 //Add commas to thousands
 function addcommas(x){
   if(parseInt(x)){
@@ -451,6 +457,13 @@ function getAge(dateString) {
 }
 
 var declarationsDataset = './data/mpsXV.json';
+vuedata.legislature = 'XV';
+
+if(getParameterByName('legislatura') && vuedata.supportedLegislatures.indexOf(getParameterByName('legislatura')) > -1) {
+  var selectedLegislature = getParameterByName('legislatura');
+  declarationsDataset = './data/mps'+selectedLegislature+'.json';
+  vuedata.legislature = selectedLegislature;
+}
 
 //Load data and generate charts
 var peopleStatusesDebug = [];
@@ -515,7 +528,7 @@ json(declarationsDataset, (err, declarations) => {
     partiesLegInfo = fixArray(partiesLegInfo);
     if(partiesLegInfo && partiesLegInfo.length > 0) {
       _.each(partiesLegInfo, function (pInfo) {
-        if( pInfo.legDes == vuedata.legislature) {
+        if(pInfo.legDes == vuedata.legislature) {
           d.party = pInfo.gpSigla;
           d.partyFullName = pInfo.gpDes;
           d.area = pInfo.ceDes;
@@ -1323,7 +1336,33 @@ json(declarationsDataset, (err, declarations) => {
     }
   }
 
-  //Europa and fora de europa buttons
+  //Acores, Madeira, Europa and fora de europa buttons
+  $('#AÇORES').click(function () {
+    $('.map-buttons button').removeClass('active');
+    $(this).addClass('active');
+    areaDimension.filter(function (d) { 
+      return d == 'AÇORES';
+    });
+    dc.redrawAll();
+    RefreshTable();
+    $('#map_chart svg .layer0 .province').each(function(i) {
+      $(this).removeClass('selected');
+      $(this).addClass('deselected');
+    });
+  });
+  $('#MADEIRA').click(function () {
+    $('.map-buttons button').removeClass('active');
+    $(this).addClass('active');
+    areaDimension.filter(function (d) { 
+      return d == 'MADEIRA';
+    });
+    dc.redrawAll();
+    RefreshTable();
+    $('#map_chart svg .layer0 .province').each(function(i) {
+      $(this).removeClass('selected');
+      $(this).addClass('deselected');
+    });
+  });
   $('#EUROPA').click(function () {
     $('.map-buttons button').removeClass('active');
     $(this).addClass('active');
@@ -1416,7 +1455,8 @@ json(declarationsDataset, (err, declarations) => {
   var all = ndx.groupAll();
   var counter = dc.dataCount('.dc-data-count')
     .dimension(ndx)
-    .group(all);
+    .group(all)
+    .formatNumber(locale.format(",d"));
   counter.render();
   //Update datatables
   counter.on("renderlet.resetall", function(c) {

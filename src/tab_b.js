@@ -26,6 +26,7 @@ import ChartHeader from './components/ChartHeader.vue';
 
 var vuedata = {
   page: 'tabB',
+  supportedLegislatures: ['XV', 'XIV'],
   legislature: 'XV',
   previousmandate: false,
   loader: true,
@@ -254,6 +255,11 @@ var resizeGraphs = function() {
   }
 };
 
+var locale = d3.formatLocale({
+  thousands: "",
+  grouping: [3]
+});
+
 //Add commas to thousands
 function addcommas(x){
   if(parseInt(x)){
@@ -295,6 +301,14 @@ function getParameterByName(name, url) {
 
 var activitiesDataset = './data/activitiesXV.json';
 var declarationsDataset = './data/mpsXV.json';
+vuedata.legislature = 'XV';
+
+if(getParameterByName('legislatura') && vuedata.supportedLegislatures.indexOf(getParameterByName('legislatura')) > -1) {
+  var selectedLegislature = getParameterByName('legislatura');
+  activitiesDataset = './data/activities'+selectedLegislature+'.json';
+  declarationsDataset = './data/mps'+selectedLegislature+'.json';
+  vuedata.legislature = selectedLegislature;
+}
 
 //Load data and generate charts
 json(declarationsDataset, (err0, declarations) => {
@@ -756,7 +770,8 @@ json(activitiesDataset, (err, activities) => {
   var all = ndx.groupAll();
   var counter = dc.dataCount('.dc-data-count')
     .dimension(ndx)
-    .group(all);
+    .group(all)
+    .formatNumber(locale.format(",d"));
   counter.render();
   //Update datatables
   counter.on("renderlet.resetall", function(c) {

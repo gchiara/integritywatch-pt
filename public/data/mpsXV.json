@@ -137,7 +137,7 @@
             },
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -445,7 +445,7 @@
             "depCadId": "4397",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -754,7 +754,7 @@
             "depCadId": "4363",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -959,7 +959,7 @@
                 "@xmlns": "http://tempuri.org/",
                 "CargoFuncao": "Deputado à Assembleia da República",
                 "ChkDeclaracao": "false",
-                "DataAlteracaoFuncao": "2023-01-24T00:00:00",
+                "DataAlteracaoFuncao": "2023-07-12T00:00:00",
                 "DataCessacaoFuncao": {
                     "@xsi:nil": "true"
                 },
@@ -1157,7 +1157,7 @@
             "depCadId": "6543",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -1479,7 +1479,7 @@
             "depCadId": "5837",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -1831,7 +1831,7 @@
             "depCadId": "7240",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -2121,7 +2121,7 @@
             "depCadId": "5930",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -2323,7 +2323,7 @@
             "depCadId": "1933",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -2664,7 +2664,7 @@
             "depCadId": "817",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7246",
                     "gpSigla": "PCP"
@@ -2892,7 +2892,7 @@
             "depCadId": "5706",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7246",
                     "gpSigla": "PCP"
@@ -3051,6 +3051,13 @@
                         "orgDes": "Grupo de Trabalho-Avaliação da Legislação sobre Abusos Sexuais contra Menores",
                         "orgId": "8376",
                         "orgSigla": "GT-ALASCM",
+                        "timDes": "Efetivo"
+                    },
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Grupo de Trabalho-Júri Prémio Direitos Humanos 2023",
+                        "orgId": "8382",
+                        "orgSigla": "GT-JPDH2023",
                         "timDes": "Efetivo"
                     }
                 ]
@@ -3339,7 +3346,7 @@
             "depCadId": "7913",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -3432,7 +3439,7 @@
             "depCadId": "1212",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -3717,7 +3724,7 @@
             "depCadId": "6057",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -3977,7 +3984,7 @@
             "depCadId": "7324",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -4212,7 +4219,7 @@
             "depCadId": "4199",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -4704,7 +4711,7 @@
             "depCadId": "6539",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -4810,6 +4817,68 @@
         "cadId": "6539",
         "cadNomeCompleto": "ANDRÉ GUIMARÃES COELHO LIMA",
         "cadProfissao": "Advogado",
+        "cadSexo": "M"
+    },
+    {
+        "activitiesCounts": {
+            "ActiveCargos": 0,
+            "AllCargos": 0,
+            "Other": 0
+        },
+        "basicInfo": {
+            "depCPDes": "VILA REAL",
+            "depCPId": "17",
+            "depCadId": "7380",
+            "depGP": {
+                "pt_ar_wsgode_objectos_DadosSituacaoGP": {
+                    "gpDtFim": "2023-09-13",
+                    "gpDtInicio": "2022-03-29",
+                    "gpId": "7243",
+                    "gpSigla": "PSD"
+                }
+            },
+            "depId": "11863",
+            "depNomeCompleto": "ANDRÉ PEREIRA CARDOSO MARQUES",
+            "depNomeParlamentar": "ANDRÉ MARQUES",
+            "depSituacao": {
+                "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
+                    {
+                        "sioDes": "Suplente",
+                        "sioDtFim": "2023-09-01",
+                        "sioDtInicio": "2022-03-29"
+                    },
+                    {
+                        "sioDes": "Efetivo Temporário",
+                        "sioDtInicio": "2023-09-01"
+                    }
+                ]
+            },
+            "legDes": "XV"
+        },
+        "cadActividadeOrgaos": null,
+        "cadDeputadoLegis": {
+            "pt_ar_wsgode_objectos_DadosDeputadoLegis": {
+                "ceDes": "VILA REAL",
+                "depNomeParlamentar": "ANDRÉ MARQUES",
+                "gpDes": "Partido Social Democrata",
+                "gpSigla": "PSD",
+                "legDes": "XV",
+                "parDes": "Partido Popular Democrático / Partido Social Democrata",
+                "parSigla": "PPD/PSD"
+            }
+        },
+        "cadDtNascimento": "1983-02-15",
+        "cadHabilitacoes": {
+            "pt_ar_wsgode_objectos_DadosHabilitacoes": {
+                "habDes": "Educação",
+                "habEstado": "C",
+                "habId": "35811",
+                "habTipoId": "13"
+            }
+        },
+        "cadId": "7380",
+        "cadNomeCompleto": "ANDRÉ PEREIRA CARDOSO MARQUES",
+        "cadProfissao": "Técnico Superior",
         "cadSexo": "M"
     },
     {
@@ -4953,7 +5022,7 @@
             "depCadId": "6050",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -5355,7 +5424,7 @@
             "depCadId": "6535",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7244",
                     "gpSigla": "CH"
@@ -5650,7 +5719,7 @@
             "depCadId": "4396",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -5904,7 +5973,7 @@
             "depCadId": "8000",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -6123,7 +6192,7 @@
             "depCadId": "6571",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -6461,7 +6530,7 @@
             "depCadId": "6853",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -6728,7 +6797,7 @@
             "depCadId": "7357",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -6779,13 +6848,22 @@
                 ]
             },
             "actividadeGT": {
-                "pt_ar_wsgode_objectos_DadosOrgaos": {
-                    "legDes": "XV",
-                    "orgDes": "Grupo de Trabalho-Instalação da Aliança Parlamentar Portuguesa pelo Direito à Alimentação com Igualdade do Género",
-                    "orgId": "8379",
-                    "orgSigla": "GT-IAPPDAIG",
-                    "timDes": "Efetivo"
-                }
+                "pt_ar_wsgode_objectos_DadosOrgaos": [
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Grupo de Trabalho-Instalação da Aliança Parlamentar Portuguesa pelo Direito à Alimentação com Igualdade do Género",
+                        "orgId": "8379",
+                        "orgSigla": "GT-IAPPDAIG",
+                        "timDes": "Efetivo"
+                    },
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Grupo de Trabalho-Revisão e Atualização da Lei da Água",
+                        "orgId": "8383",
+                        "orgSigla": "GT-RALA",
+                        "timDes": "Efetivo"
+                    }
+                ]
             }
         },
         "cadDeputadoLegis": {
@@ -6914,7 +6992,7 @@
             "depCadId": "6848",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -7182,7 +7260,7 @@
             "depCadId": "4439",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -7433,7 +7511,7 @@
             "depCadId": "6197",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -7701,7 +7779,7 @@
             "depCadId": "7329",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -7899,7 +7977,7 @@
             "depCadId": "6905",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -8239,7 +8317,7 @@
             },
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -8594,7 +8672,7 @@
             "depCadId": "7502",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -8633,23 +8711,23 @@
                 "pt_ar_wsgode_objectos_DadosOrgaos": [
                     {
                         "legDes": "XV",
-                        "orgDes": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
-                        "orgId": "8326",
-                        "orgSigla": "CNECP",
-                        "timDes": "Efetivo"
-                    },
-                    {
-                        "legDes": "XV",
                         "orgDes": "Comissão de Educação e Ciência",
                         "orgId": "8332",
                         "orgSigla": "CEC",
-                        "timDes": "Efetivo"
+                        "timDes": "Suplente"
                     },
                     {
                         "legDes": "XV",
                         "orgDes": "Comissão de Ambiente e Energia",
                         "orgId": "8335",
                         "orgSigla": "CAENE",
+                        "timDes": "Efetivo"
+                    },
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Comissão de Cultura, Comunicação, Juventude e Desporto",
+                        "orgId": "8336",
+                        "orgSigla": "CCCJD",
                         "timDes": "Efetivo"
                     }
                 ]
@@ -8864,7 +8942,7 @@
             "depCadId": "7393",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7245",
                     "gpSigla": "IL"
@@ -8942,13 +9020,22 @@
                 ]
             },
             "actividadeGT": {
-                "pt_ar_wsgode_objectos_DadosOrgaos": {
-                    "legDes": "XV",
-                    "orgDes": "Grupo de Trabalho - Escrutínio de Iniciativas Europeias",
-                    "orgId": "8340",
-                    "orgSigla": "GT-EIE",
-                    "timDes": "Efetivo"
-                }
+                "pt_ar_wsgode_objectos_DadosOrgaos": [
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Grupo de Trabalho - Escrutínio de Iniciativas Europeias",
+                        "orgId": "8340",
+                        "orgSigla": "GT-EIE",
+                        "timDes": "Efetivo"
+                    },
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Grupo de Trabalho-Revisão e Atualização da Lei da Água",
+                        "orgId": "8383",
+                        "orgSigla": "GT-RALA",
+                        "timDes": "Efetivo"
+                    }
+                ]
             }
         },
         "cadDeputadoLegis": {
@@ -9101,7 +9188,7 @@
             "depCadId": "426",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -9448,7 +9535,7 @@
             "depCadId": "7083",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -9487,7 +9574,7 @@
                         "orgDes": "Comissão de Cultura, Comunicação, Juventude e Desporto",
                         "orgId": "8336",
                         "orgSigla": "CCCJD",
-                        "timDes": "Efetivo"
+                        "timDes": "Suplente"
                     },
                     {
                         "cargoDes": {
@@ -9729,7 +9816,7 @@
             "depCadId": "4304",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -9769,6 +9856,15 @@
                         "timDes": "Efetivo"
                     }
                 ]
+            },
+            "actividadeGT": {
+                "pt_ar_wsgode_objectos_DadosOrgaos": {
+                    "legDes": "XV",
+                    "orgDes": "Grupo de Trabalho-Revisão e Atualização da Lei da Água",
+                    "orgId": "8383",
+                    "orgSigla": "GT-RALA",
+                    "timDes": "Efetivo"
+                }
             }
         },
         "cadCargosFuncoes": {
@@ -10110,7 +10206,7 @@
             "depCadId": "1715",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7246",
                     "gpSigla": "PCP"
@@ -10253,73 +10349,73 @@
                 {
                     "funAntiga": "N",
                     "funDes": "Deputado na XV Legislatura;",
-                    "funId": "41368",
+                    "funId": "42352",
                     "funOrdem": "0"
                 },
                 {
                     "funAntiga": "S",
                     "funDes": "Deputado na VIII, IX, X, XI e XII Legislatura;",
-                    "funId": "41371",
+                    "funId": "42355",
                     "funOrdem": "0"
                 },
                 {
                     "funAntiga": "N",
                     "funDes": "Membro da Assembleia Municipal de Almada;",
-                    "funId": "41369",
+                    "funId": "42353",
                     "funOrdem": "1"
                 },
                 {
                     "funAntiga": "S",
                     "funDes": "Membro das Comissões de Obras Públicas, Transportes e Comunicações; da Comissão de Ética; de Educação, Ciência e Cultura; da Comissão de Negócios Estrangeiros e Comunidades Portuguesas; de Saúde; de Orçamento e Finanças.",
-                    "funId": "41372",
+                    "funId": "42356",
                     "funOrdem": "1"
                 },
                 {
                     "funAntiga": "N",
                     "funDes": "Membro do Comité Central, da Direcção da Organização Regional de Setúbal e da Comissão Concelhia de Almada do PCP.",
-                    "funId": "41370",
+                    "funId": "42354",
                     "funOrdem": "2"
                 },
                 {
                     "funAntiga": "S",
                     "funDes": "Membro do Conselho Pedagógico da Faculdade de Ciências Sociais e Humanas da Universidade Nova de Lisboa",
-                    "funId": "41373",
+                    "funId": "42357",
                     "funOrdem": "2"
                 },
                 {
                     "funAntiga": "S",
                     "funDes": "Membro do Conselho de Administração da Assembleia da República",
-                    "funId": "41374",
+                    "funId": "42358",
                     "funOrdem": "3"
                 },
                 {
                     "funAntiga": "S",
                     "funDes": "Presidente do Grupo Parlamentar de Amizade Portugal - Palestina",
-                    "funId": "41375",
+                    "funId": "42359",
                     "funOrdem": "4"
                 },
                 {
                     "funAntiga": "S",
                     "funDes": "Membro da Delegação Portuguesa da U.I.P. e dos Grupos Parlamentares de Amizade Portugal/Moçambique, Portugal/Venezuela e Portugal/Argélia;",
-                    "funId": "41376",
+                    "funId": "42360",
                     "funOrdem": "5"
                 },
                 {
                     "funAntiga": "S",
                     "funDes": "Eleito na Assembleia Municipal de Almada - 1997/2001; 2001/2005; 2005/2009; 2009/2013;",
-                    "funId": "41377",
+                    "funId": "42361",
                     "funOrdem": "6"
                 },
                 {
                     "funAntiga": "S",
                     "funDes": "Membro da Comissão Política da Direcção Nacional da JCP",
-                    "funId": "41378",
+                    "funId": "42362",
                     "funOrdem": "7"
                 },
                 {
                     "funAntiga": "S",
                     "funDes": "Membro da Comissão Parlamentar de Inquérito à Celebração de Contratos de Gestão de Risco Financeiro por Empresas do Sector Público; da Comissão Parlamentar de Inquérito à Contratualização, Renegociação e Gestão de todas as Parcerias Público-Privadas do Sector Rodoviário e Ferroviário; da Comissão Eventual de Inquérito Parlamentar à actuação do Governo em relação à Fundação para as Comunicações Móveis, da Comissão Eventual para a Análise e a Fiscalização dos Recursos Públicos Envolvidos no Euro 2004",
-                    "funId": "41379",
+                    "funId": "42363",
                     "funOrdem": "8"
                 }
             ]
@@ -10405,7 +10501,7 @@
             "pt_ar_wsgode_objectos_DadosHabilitacoes": {
                 "habDes": "Ciências da Comunicação",
                 "habEstado": "C",
-                "habId": "35417",
+                "habId": "35808",
                 "habTipoId": "13"
             }
         },
@@ -10569,7 +10665,7 @@
             "depCadId": "7338",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7244",
                     "gpSigla": "CH"
@@ -10895,7 +10991,7 @@
             "depCadId": "6875",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7245",
                     "gpSigla": "IL"
@@ -11338,7 +11434,7 @@
             "depCadId": "7007",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -11574,7 +11670,7 @@
             "depCadId": "5933",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -11805,7 +11901,7 @@
             "depCadId": "6661",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -12152,7 +12248,7 @@
             "depCadId": "7325",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -12405,7 +12501,7 @@
             "depCadId": "6930",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -12697,7 +12793,7 @@
             "depCadId": "7343",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7245",
                     "gpSigla": "IL"
@@ -12994,7 +13090,7 @@
             "depCadId": "6187",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -13392,7 +13488,7 @@
             "depCadId": "7726",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -13424,6 +13520,13 @@
                         "orgDes": "Comissão de Educação e Ciência",
                         "orgId": "8332",
                         "orgSigla": "CEC",
+                        "timDes": "Efetivo"
+                    },
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Comissão de Trabalho, Segurança Social e Inclusão",
+                        "orgId": "8334",
+                        "orgSigla": "CTSSI",
                         "timDes": "Efetivo"
                     },
                     {
@@ -13724,7 +13827,7 @@
             "depCadId": "4161",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7247",
                     "gpSigla": "BE"
@@ -13758,14 +13861,9 @@
                     },
                     {
                         "cargoDes": {
-                            "pt_ar_wsgode_objectos_DadosCargosOrgao": [
-                                {
-                                    "tiaDes": "CGP"
-                                },
-                                {
-                                    "tiaDes": "CGP"
-                                }
-                            ]
+                            "pt_ar_wsgode_objectos_DadosCargosOrgao": {
+                                "tiaDes": "CGP"
+                            }
                         },
                         "legDes": "XV",
                         "orgDes": "Comissão de Transparência e Estatuto dos Deputados",
@@ -13914,7 +14012,7 @@
             "depCadId": "7867",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -14163,7 +14261,7 @@
             "depCadId": "6901",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -14396,7 +14494,7 @@
             "depCadId": "4299",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -14697,7 +14795,7 @@
             "depCadId": "7250",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -14907,7 +15005,7 @@
             "depCadId": "6529",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -15268,7 +15366,7 @@
             "depCadId": "6202",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -15771,7 +15869,7 @@
             "depCadId": "6871",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -15781,72 +15879,39 @@
             "depNomeCompleto": "CLÁUDIA PATRÍCIA QUITÉRIO BENTO",
             "depNomeParlamentar": "CLÁUDIA BENTO",
             "depSituacao": {
-                "pt_ar_wsgode_objectos_DadosSituacaoDeputado": {
-                    "sioDes": "Efetivo",
-                    "sioDtInicio": "2022-03-29"
-                }
-            },
-            "legDes": "XV"
-        },
-        "cadActividadeOrgaos": {
-            "actividadeCom": {
-                "pt_ar_wsgode_objectos_DadosOrgaos": [
+                "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
                     {
-                        "legDes": "XV",
-                        "orgDes": "Comissão de Saúde",
-                        "orgId": "8333",
-                        "orgSigla": "CS",
-                        "timDes": "Efetivo"
+                        "sioDes": "Suspenso(Eleito)",
+                        "sioDtInicio": "2023-09-01"
                     },
                     {
-                        "legDes": "XV",
-                        "orgDes": "Comissão de Ambiente e Energia",
-                        "orgId": "8335",
-                        "orgSigla": "CAENE",
-                        "timDes": "Suplente"
-                    },
-                    {
-                        "cargoDes": {
-                            "pt_ar_wsgode_objectos_DadosCargosOrgao": {
-                                "tiaDes": "Vice-Presidente"
-                            }
-                        },
-                        "legDes": "XV",
-                        "orgDes": "Comissão de Cultura, Comunicação, Juventude e Desporto",
-                        "orgId": "8336",
-                        "orgSigla": "CCCJD",
-                        "timDes": "Efetivo"
+                        "sioDes": "Efetivo",
+                        "sioDtFim": "2023-09-01",
+                        "sioDtInicio": "2022-03-29"
                     }
                 ]
             },
-            "actividadeGT": {
-                "pt_ar_wsgode_objectos_DadosOrgaos": {
-                    "legDes": "XV",
-                    "orgDes": "Grupo de Trabalho-Audiências e Audições",
-                    "orgId": "8354",
-                    "orgSigla": "GT-AA",
-                    "timDes": "Efetivo"
-                }
-            }
+            "legDes": "XV"
         },
+        "cadActividadeOrgaos": null,
         "cadCargosFuncoes": {
             "pt_ar_wsgode_objectos_DadosCargosFuncoes": [
                 {
                     "funAntiga": "N",
                     "funDes": "Médica Nefrologista na clínica de hemodiálise - TECSAM",
-                    "funId": "41722",
+                    "funId": "42342",
                     "funOrdem": "0"
                 },
                 {
                     "funAntiga": "S",
                     "funDes": "Médica Nefrologista no Centro Hospitalar de Trás-os-Montes e Alto Douro",
-                    "funId": "41724",
+                    "funId": "42344",
                     "funOrdem": "0"
                 },
                 {
                     "funAntiga": "N",
                     "funDes": "Medica Nefrologista - Chaves - Hospital Terra Quente",
-                    "funId": "41723",
+                    "funId": "42343",
                     "funOrdem": "1"
                 }
             ]
@@ -15878,7 +15943,7 @@
             "pt_ar_wsgode_objectos_DadosHabilitacoes": {
                 "habDes": "Mestrado Integrado em Medicina",
                 "habEstado": "C",
-                "habId": "35569",
+                "habId": "35803",
                 "habTipoId": "14"
             }
         },
@@ -16294,7 +16359,7 @@
             "depCadId": "6859",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -16356,6 +16421,13 @@
                         "orgDes": "Grupo de Trabalho-Avaliação da Legislação sobre Abusos Sexuais contra Menores",
                         "orgId": "8376",
                         "orgSigla": "GT-ALASCM",
+                        "timDes": "Efetivo"
+                    },
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Grupo de Trabalho-Júri Prémio Direitos Humanos 2023",
+                        "orgId": "8382",
+                        "orgSigla": "GT-JPDH2023",
                         "timDes": "Efetivo"
                     }
                 ]
@@ -16707,7 +16779,7 @@
             "depCadId": "7381",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -16939,7 +17011,7 @@
             "depCadId": "7015",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -17204,7 +17276,7 @@
             "depCadId": "6886",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -17408,7 +17480,7 @@
             "depCadId": "4623",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7246",
                     "gpSigla": "PCP"
@@ -17598,7 +17670,7 @@
             "depCadId": "7402",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -17813,7 +17885,7 @@
             "depCadId": "7547",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -17845,6 +17917,13 @@
                         "orgDes": "Comissão de Orçamento e Finanças",
                         "orgId": "8329",
                         "orgSigla": "COF",
+                        "timDes": "Efetivo"
+                    },
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Comissão de Educação e Ciência",
+                        "orgId": "8332",
+                        "orgSigla": "CEC",
                         "timDes": "Suplente"
                     },
                     {
@@ -17881,13 +17960,13 @@
                 {
                     "habDes": "Gestão",
                     "habEstado": "C",
-                    "habId": "35731",
+                    "habId": "35805",
                     "habTipoId": "13"
                 },
                 {
                     "habDes": "Engenharia Industrial",
                     "habEstado": "F",
-                    "habId": "35732",
+                    "habId": "35806",
                     "habTipoId": "14"
                 }
             ]
@@ -18116,7 +18195,7 @@
             },
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -18611,7 +18690,7 @@
             "depCadId": "6858",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7244",
                     "gpSigla": "CH"
@@ -18853,7 +18932,7 @@
             "depCadId": "7020",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -19071,7 +19150,7 @@
             "depCadId": "5710",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7246",
                     "gpSigla": "PCP"
@@ -19146,13 +19225,22 @@
                 ]
             },
             "actividadeGT": {
-                "pt_ar_wsgode_objectos_DadosOrgaos": {
-                    "legDes": "XV",
-                    "orgDes": "Grupo de Trabalho-Habitação",
-                    "orgId": "8372",
-                    "orgSigla": "GT-H",
-                    "timDes": "Suplente"
-                }
+                "pt_ar_wsgode_objectos_DadosOrgaos": [
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Grupo de Trabalho-Habitação",
+                        "orgId": "8372",
+                        "orgSigla": "GT-H",
+                        "timDes": "Suplente"
+                    },
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Grupo de Trabalho-Revisão e Atualização da Lei da Água",
+                        "orgId": "8383",
+                        "orgSigla": "GT-RALA",
+                        "timDes": "Efetivo"
+                    }
+                ]
             },
             "actividadeSCom": {
                 "pt_ar_wsgode_objectos_DadosOrgaos": {
@@ -19381,7 +19469,7 @@
             },
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -19839,7 +19927,7 @@
             },
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -20374,7 +20462,7 @@
             "depCadId": "5896",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -20612,7 +20700,7 @@
             "depCadId": "7949",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -20693,7 +20781,7 @@
             "depCadId": "7362",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -20925,7 +21013,7 @@
             "depCadId": "6119",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -21198,7 +21286,7 @@
             "depCadId": "7975",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -21391,7 +21479,7 @@
             "depCadId": "5600",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -21608,7 +21696,7 @@
             "depCadId": "4186",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -22070,7 +22158,7 @@
             "depCadId": "7350",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -22415,7 +22503,7 @@
             "depCadId": "1597",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -22577,7 +22665,7 @@
             "depCadId": "1978",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -22793,7 +22881,7 @@
             "depCadId": "6909",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -23124,7 +23212,7 @@
             "depCadId": "7212",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -23340,7 +23428,7 @@
             "depCadId": "3930",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -23622,7 +23710,7 @@
             "depCadId": "1905",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -23687,6 +23775,18 @@
                         "orgDes": "Grupo de Trabalho-Júri Prémio Direitos Humanos 2022",
                         "orgId": "8363",
                         "orgSigla": "GT-JPDH2022",
+                        "timDes": "Efetivo"
+                    },
+                    {
+                        "cargoDes": {
+                            "pt_ar_wsgode_objectos_DadosCargosOrgao": {
+                                "tiaDes": "Coordenador "
+                            }
+                        },
+                        "legDes": "XV",
+                        "orgDes": "Grupo de Trabalho-Júri Prémio Direitos Humanos 2023",
+                        "orgId": "8382",
+                        "orgSigla": "GT-JPDH2023",
                         "timDes": "Efetivo"
                     }
                 ]
@@ -24014,7 +24114,7 @@
             "depCadId": "7332",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7244",
                     "gpSigla": "CH"
@@ -24330,7 +24430,7 @@
             "depCadId": "1554",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -24691,7 +24791,7 @@
             "depCadId": "1580",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -25008,7 +25108,7 @@
             "depCadId": "5985",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -25235,7 +25335,7 @@
             "depCadId": "7341",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -25483,7 +25583,7 @@
             "depCadId": "7055",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -25564,7 +25664,7 @@
             "pt_ar_wsgode_objectos_DadosHabilitacoes": {
                 "habDes": "Direito",
                 "habEstado": "C",
-                "habId": "35393",
+                "habId": "35804",
                 "habTipoId": "13"
             }
         },
@@ -25784,7 +25884,7 @@
             "depCadId": "7036",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -26020,7 +26120,7 @@
             "depCadId": "7351",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -26483,7 +26583,7 @@
             "depCadId": "523",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -26744,7 +26844,7 @@
             "depCadId": "7340",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7244",
                     "gpSigla": "CH"
@@ -26991,7 +27091,7 @@
             "depCadId": "7011",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -27211,7 +27311,7 @@
             "depCadId": "5984",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -27445,7 +27545,7 @@
             "depCadId": "7537",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -27486,16 +27586,16 @@
                     },
                     {
                         "legDes": "XV",
-                        "orgDes": "Comissão de Educação e Ciência",
-                        "orgId": "8332",
-                        "orgSigla": "CEC",
+                        "orgDes": "Comissão de Agricultura e Pescas",
+                        "orgId": "8331",
+                        "orgSigla": "CAPes",
                         "timDes": "Suplente"
                     },
                     {
                         "legDes": "XV",
-                        "orgDes": "Comissão de Cultura, Comunicação, Juventude e Desporto",
-                        "orgId": "8336",
-                        "orgSigla": "CCCJD",
+                        "orgDes": "Comissão de Educação e Ciência",
+                        "orgId": "8332",
+                        "orgSigla": "CEC",
                         "timDes": "Suplente"
                     }
                 ]
@@ -27687,7 +27787,7 @@
             "depCadId": "7483",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -28026,7 +28126,7 @@
             "depCadId": "7352",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -28243,7 +28343,7 @@
             "depCadId": "1910",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -28472,7 +28572,7 @@
             },
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -29001,7 +29101,7 @@
             "depCadId": "7274",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -29321,7 +29421,7 @@
             "depCadId": "5934",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -29343,13 +29443,6 @@
                 "pt_ar_wsgode_objectos_DadosOrgaos": [
                     {
                         "legDes": "XV",
-                        "orgDes": "Comissão de Orçamento e Finanças",
-                        "orgId": "8329",
-                        "orgSigla": "COF",
-                        "timDes": "Suplente"
-                    },
-                    {
-                        "legDes": "XV",
                         "orgDes": "Comissão de Economia, Obras Públicas, Planeamento e Habitação",
                         "orgId": "8330",
                         "orgSigla": "CEOPPH",
@@ -29360,6 +29453,13 @@
                         "orgDes": "Comissão de Ambiente e Energia",
                         "orgId": "8335",
                         "orgSigla": "CAENE",
+                        "timDes": "Suplente"
+                    },
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Comissão de Cultura, Comunicação, Juventude e Desporto",
+                        "orgId": "8336",
+                        "orgSigla": "CCCJD",
                         "timDes": "Suplente"
                     },
                     {
@@ -29677,7 +29777,7 @@
             "depCadId": "6013",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -30016,7 +30116,7 @@
             "depCadId": "7403",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -30310,7 +30410,7 @@
             "depCadId": "6542",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -30628,7 +30728,7 @@
             "depCadId": "5509",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -30991,7 +31091,7 @@
             "depCadId": "6857",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -31052,6 +31152,15 @@
                         "timDes": "Suplente"
                     }
                 ]
+            },
+            "actividadeGT": {
+                "pt_ar_wsgode_objectos_DadosOrgaos": {
+                    "legDes": "XV",
+                    "orgDes": "Grupo de Trabalho-Revisão e Atualização da Lei da Água",
+                    "orgId": "8383",
+                    "orgSigla": "GT-RALA",
+                    "timDes": "Efetivo"
+                }
             }
         },
         "cadCargosFuncoes": {
@@ -31308,7 +31417,7 @@
             "depCadId": "3935",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -31503,7 +31612,7 @@
             "depCadId": "7388",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -31813,7 +31922,7 @@
             "depCadId": "6864",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7249",
                     "gpSigla": "PAN"
@@ -31924,6 +32033,20 @@
                         "orgDes": "Grupo de Trabalho-Avaliação da Legislação sobre Abusos Sexuais contra Menores",
                         "orgId": "8376",
                         "orgSigla": "GT-ALASCM",
+                        "timDes": "Efetivo"
+                    },
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Grupo de Trabalho-Júri Prémio Direitos Humanos 2023",
+                        "orgId": "8382",
+                        "orgSigla": "GT-JPDH2023",
+                        "timDes": "Efetivo"
+                    },
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Grupo de Trabalho-Revisão e Atualização da Lei da Água",
+                        "orgId": "8383",
+                        "orgSigla": "GT-RALA",
                         "timDes": "Efetivo"
                     }
                 ]
@@ -32170,7 +32293,7 @@
             "depCadId": "7494",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -32393,7 +32516,7 @@
             "depCadId": "4452",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -32679,7 +32802,7 @@
             "depCadId": "7414",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -32948,7 +33071,7 @@
             "depCadId": "6935",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -33037,7 +33160,7 @@
             "depCadId": "4133",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -33304,7 +33427,7 @@
             "depCadId": "5854",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7247",
                     "gpSigla": "BE"
@@ -33321,136 +33444,19 @@
                         "sioDtInicio": "2022-03-29"
                     },
                     {
+                        "sioDes": "Suplente",
+                        "sioDtInicio": "2023-08-12"
+                    },
+                    {
                         "sioDes": "Efetivo Temporário",
+                        "sioDtFim": "2023-08-12",
                         "sioDtInicio": "2023-02-11"
                     }
                 ]
             },
             "legDes": "XV"
         },
-        "cadActividadeOrgaos": {
-            "actividadeCom": {
-                "pt_ar_wsgode_objectos_DadosOrgaos": [
-                    {
-                        "cargoDes": {
-                            "pt_ar_wsgode_objectos_DadosCargosOrgao": {
-                                "tiaDes": "CGP"
-                            }
-                        },
-                        "legDes": "XV",
-                        "orgDes": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
-                        "orgId": "8326",
-                        "orgSigla": "CNECP",
-                        "timDes": "Efetivo"
-                    },
-                    {
-                        "legDes": "XV",
-                        "orgDes": "Comissão de Defesa Nacional",
-                        "orgId": "8327",
-                        "orgSigla": "CDN",
-                        "timDes": "Suplente"
-                    },
-                    {
-                        "legDes": "XV",
-                        "orgDes": "Comissão de Economia, Obras Públicas, Planeamento e Habitação",
-                        "orgId": "8330",
-                        "orgSigla": "CEOPPH",
-                        "timDes": "Suplente"
-                    },
-                    {
-                        "legDes": "XV",
-                        "orgDes": "Comissão de Saúde",
-                        "orgId": "8333",
-                        "orgSigla": "CS",
-                        "timDes": "Suplente"
-                    },
-                    {
-                        "cargoDes": {
-                            "pt_ar_wsgode_objectos_DadosCargosOrgao": {
-                                "tiaDes": "CGP"
-                            }
-                        },
-                        "legDes": "XV",
-                        "orgDes": "Comissão de Trabalho, Segurança Social e Inclusão",
-                        "orgId": "8334",
-                        "orgSigla": "CTSSI",
-                        "timDes": "Efetivo"
-                    },
-                    {
-                        "cargoDes": {
-                            "pt_ar_wsgode_objectos_DadosCargosOrgao": {
-                                "tiaDes": "CGP"
-                            }
-                        },
-                        "legDes": "XV",
-                        "orgDes": "Comissão de Administração Pública, Ordenamento do Território e Poder Local",
-                        "orgId": "8337",
-                        "orgSigla": "CAPOTPL",
-                        "timDes": "Efetivo"
-                    }
-                ]
-            },
-            "actividadeGT": {
-                "pt_ar_wsgode_objectos_DadosOrgaos": [
-                    {
-                        "legDes": "XV",
-                        "orgDes": "Grupo de Trabalho - Inclusão e Direitos das Pessoas com Deficiência",
-                        "orgId": "8347",
-                        "orgSigla": "GT-IDPD",
-                        "timDes": "Efetivo"
-                    },
-                    {
-                        "legDes": "XV",
-                        "orgDes": "Grupo de Trabalho - Audiências e Audição de Peticionários",
-                        "orgId": "8348",
-                        "orgSigla": "GT-AAP",
-                        "timDes": "Efetivo"
-                    },
-                    {
-                        "legDes": "XV",
-                        "orgDes": "Grupo de Trabalho-Ordens Profissionais",
-                        "orgId": "8362",
-                        "orgSigla": "GT-OP",
-                        "timDes": "Efetivo"
-                    },
-                    {
-                        "legDes": "XV",
-                        "orgDes": "Grupo de Trabalho-Freguesias",
-                        "orgId": "8370",
-                        "orgSigla": "GT-F",
-                        "timDes": "Efetivo"
-                    },
-                    {
-                        "legDes": "XV",
-                        "orgDes": "Grupo de Trabalho-Prevenção e Proteção Sismica",
-                        "orgId": "8374",
-                        "orgSigla": "GT-PPS",
-                        "timDes": "Efetivo"
-                    },
-                    {
-                        "legDes": "XV",
-                        "orgDes": "Grupo de Trabalho-Alterações à Lei nº 66-A/2007",
-                        "orgId": "8375",
-                        "orgSigla": "GT-AL66-A-2007",
-                        "timDes": "Efetivo"
-                    },
-                    {
-                        "legDes": "XV",
-                        "orgDes": "Grupo de Trabalho-Forma de Pagamento do Apoio Extraordinário",
-                        "orgId": "8380",
-                        "orgSigla": "GT-FPAE",
-                        "timDes": "Efetivo"
-                    },
-                    {
-                        "legDes": "XV",
-                        "orgDes": "Grupo de Trabalho-Primeira Alteração ao Estatuto do Cuidador Informal",
-                        "orgId": "8381",
-                        "orgSigla": "GT-PAECI",
-                        "timDes": "Efetivo"
-                    }
-                ]
-            }
-        },
+        "cadActividadeOrgaos": null,
         "cadDeputadoLegis": {
             "pt_ar_wsgode_objectos_DadosDeputadoLegis": [
                 {
@@ -33509,7 +33515,7 @@
             "depCadId": "6536",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -33835,7 +33841,7 @@
             "depCadId": "6544",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -34146,7 +34152,7 @@
             "depCadId": "6048",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -34168,9 +34174,9 @@
                 "pt_ar_wsgode_objectos_DadosOrgaos": [
                     {
                         "legDes": "XV",
-                        "orgDes": "Comissão de Defesa Nacional",
-                        "orgId": "8327",
-                        "orgSigla": "CDN",
+                        "orgDes": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
+                        "orgId": "8326",
+                        "orgSigla": "CNECP",
                         "timDes": "Efetivo"
                     },
                     {
@@ -34482,7 +34488,7 @@
             "depCadId": "1600",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -34820,7 +34826,7 @@
             "depCadId": "210",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7246",
                     "gpSigla": "PCP"
@@ -35157,7 +35163,7 @@
             "depCadId": "4436",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -35389,7 +35395,7 @@
             "depCadId": "7339",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7245",
                     "gpSigla": "IL"
@@ -35641,7 +35647,7 @@
             "depCadId": "2885",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -36015,7 +36021,7 @@
             "depCadId": "6063",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7247",
                     "gpSigla": "BE"
@@ -36162,6 +36168,13 @@
                         "orgDes": "Grupo de Trabalho-Instalação da Aliança Parlamentar Portuguesa pelo Direito à Alimentação com Igualdade do Género",
                         "orgId": "8379",
                         "orgSigla": "GT-IAPPDAIG",
+                        "timDes": "Efetivo"
+                    },
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Grupo de Trabalho-Júri Prémio Direitos Humanos 2023",
+                        "orgId": "8382",
+                        "orgSigla": "GT-JPDH2023",
                         "timDes": "Efetivo"
                     }
                 ]
@@ -36429,7 +36442,7 @@
             },
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -36811,7 +36824,7 @@
             "depCadId": "6546",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -37039,7 +37052,7 @@
             "depCadId": "6158",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -37331,7 +37344,7 @@
             "depCadId": "7371",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -37566,7 +37579,7 @@
             "depCadId": "308",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -38044,7 +38057,7 @@
             "depCadId": "6550",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7245",
                     "gpSigla": "IL"
@@ -38323,7 +38336,7 @@
             "depCadId": "5524",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7246",
                     "gpSigla": "PCP"
@@ -38526,9 +38539,142 @@
         "cadSexo": "M"
     },
     {
+        "RegistoInteresses": {
+            "Categoria": {
+                "#text": "Deputado(a)",
+                "@xmlns": "http://tempuri.org/"
+            },
+            "Exclusividade": {
+                "@xmlns": "http://tempuri.org/",
+                "Exclusividade": "true",
+                "Id": "0"
+            },
+            "FactoDeclaracao": {
+                "@xmlns": "http://tempuri.org/",
+                "CargoFuncao": "Deputado à Assembleia da República",
+                "ChkDeclaracao": "false",
+                "DataAlteracaoFuncao": {
+                    "@xsi:nil": "true"
+                },
+                "DataCessacaoFuncao": {
+                    "@xsi:nil": "true"
+                },
+                "DataInicioFuncao": "2023-05-17T00:00:00",
+                "Id": "0"
+            },
+            "GenApoios": {
+                "@xmlns": "http://tempuri.org/"
+            },
+            "GenCargosMaisTresAnos": {
+                "@xmlns": "http://tempuri.org/"
+            },
+            "GenCargosMenosTresAnos": {
+                "@xmlns": "http://tempuri.org/",
+                "GenCargo": [
+                    {
+                        "CargoFuncaoAtividade": "Membro",
+                        "DataInicio": "2022-05-17",
+                        "DataTermo": "2023-05-16",
+                        "Entidade": "Comissão de Acesso aos Documentos Administrativos",
+                        "FormularioId": "0",
+                        "Id": "0",
+                        "IdCadastroGODE": "7583",
+                        "LocalSede": "Lisboa - Av. D Carlos I",
+                        "Natureza": "pública",
+                        "NomeIdentificacao": "João Carlos da Silva Bastos Dias Coelho",
+                        "Remunerada": "78",
+                        "activityType": "GenCargosMenosTresAnos"
+                    },
+                    {
+                        "CargoFuncaoAtividade": "perito - consultor",
+                        "DataInicio": "2020-10-01",
+                        "DataTermo": "2021-03-30",
+                        "Entidade": "Instituto Camões I.P.",
+                        "FormularioId": "0",
+                        "Id": "0",
+                        "IdCadastroGODE": "7583",
+                        "LocalSede": "Lisboa",
+                        "Natureza": "publica ",
+                        "NomeIdentificacao": "João Carlos da Silva Bastos Dias Coelho",
+                        "Remunerada": "48",
+                        "activityType": "GenCargosMenosTresAnos"
+                    },
+                    {
+                        "CargoFuncaoAtividade": "Presidente ",
+                        "DataInicio": "2020-05-24",
+                        "DataTermo": null,
+                        "Entidade": "GEOTA",
+                        "FormularioId": "0",
+                        "Id": "0",
+                        "IdCadastroGODE": "7583",
+                        "LocalSede": "Lisboa",
+                        "Natureza": "privado - ONGA",
+                        "NomeIdentificacao": "João Carlos da Silva Bastos Dias Coelho",
+                        "Remunerada": "78",
+                        "activityType": "GenCargosMenosTresAnos"
+                    },
+                    {
+                        "CargoFuncaoAtividade": "Vogal da Direção",
+                        "DataInicio": "2022-04-07",
+                        "DataTermo": null,
+                        "Entidade": "CIDAMB - Associação Cidadania Ambiental",
+                        "FormularioId": "0",
+                        "Id": "0",
+                        "IdCadastroGODE": "7583",
+                        "LocalSede": "Lisboa",
+                        "Natureza": "privado  - ONG",
+                        "NomeIdentificacao": "João Carlos da Silva Bastos Dias Coelho",
+                        "Remunerada": "78",
+                        "activityType": "GenCargosMenosTresAnos"
+                    }
+                ]
+            },
+            "GenDadosPessoais": {
+                "@xmlns": "http://tempuri.org/",
+                "Id": "0",
+                "NomeCompleto": "JOÃO CARLOS DA SILVA BASTOS DIAS COELHO",
+                "NomeConjuge": "Não aplicável",
+                "RegimeBens": "Não aplicável",
+                "Sexo": "0"
+            },
+            "GenIncompatibilidade": {
+                "@xmlns": "http://tempuri.org/",
+                "Id": "0",
+                "Incompatibilidade": "true"
+            },
+            "GenOutraSituacao": {
+                "@xmlns": "http://tempuri.org/"
+            },
+            "GenServicoPrestado": {
+                "@xmlns": "http://tempuri.org/"
+            },
+            "GenSociedade": {
+                "@xmlns": "http://tempuri.org/"
+            },
+            "IdCadastroGODE": {
+                "#text": "7583.00",
+                "@xmlns": "http://tempuri.org/"
+            },
+            "Legislatura": {
+                "#text": "XV",
+                "@xmlns": "http://tempuri.org/"
+            },
+            "NomeIdentificacao": {
+                "#text": "João Carlos da Silva Bastos Dias Coelho",
+                "@xmlns": "http://tempuri.org/"
+            },
+            "Servico": {
+                "#text": "GPPSD",
+                "@xmlns": "http://tempuri.org/"
+            },
+            "versao": {
+                "#text": "5",
+                "@xmlns": "http://tempuri.org/"
+            }
+        },
         "activitiesCounts": {
-            "ActiveCargos": 0,
-            "AllCargos": 0,
+            "ActiveCargos": 2,
+            "AllCargos": 4,
             "Other": 0
         },
         "basicInfo": {
@@ -38537,7 +38683,7 @@
             "depCadId": "7583",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -39160,7 +39306,7 @@
             "depCadId": "1529",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -39453,7 +39599,7 @@
             "depCadId": "6785",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -39715,7 +39861,7 @@
             "depCadId": "4216",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -40079,7 +40225,7 @@
             "depCadId": "1706",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -40232,7 +40378,7 @@
             "depCadId": "2129",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -40465,7 +40611,7 @@
             "depCadId": "1735",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -40707,7 +40853,7 @@
             "depCadId": "6900",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -40947,7 +41093,7 @@
             "depCadId": "303",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -41290,7 +41436,7 @@
             "depCadId": "4405",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -41682,7 +41828,7 @@
             "depCadId": "419",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -41721,7 +41867,7 @@
                         "orgDes": "Comissão de Ambiente e Energia",
                         "orgId": "8335",
                         "orgSigla": "CAENE",
-                        "timDes": "Efetivo"
+                        "timDes": "Suplente"
                     }
                 ]
             }
@@ -41915,7 +42061,7 @@
             "depCadId": "7395",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -42166,7 +42312,7 @@
             "depCadId": "7530",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -42413,7 +42559,7 @@
             "depCadId": "6884",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -42793,7 +42939,7 @@
             "depCadId": "2753",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -42995,7 +43141,7 @@
             "depCadId": "7330",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7244",
                     "gpSigla": "CH"
@@ -43134,7 +43280,7 @@
             "depCadId": "5587",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -43505,7 +43651,7 @@
             "depCadId": "2665",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -44050,7 +44196,7 @@
             "depCadId": "6545",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -44343,7 +44489,7 @@
             "depCadId": "2227",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -44758,7 +44904,7 @@
             "depCadId": "7880",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -44963,7 +45109,7 @@
             "depCadId": "6731",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -45056,7 +45202,7 @@
             "depCadId": "7379",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -45126,7 +45272,7 @@
             "depCadId": "2105",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -45578,7 +45724,7 @@
             "depCadId": "2433",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7247",
                     "gpSigla": "BE"
@@ -45596,18 +45742,132 @@
                     },
                     {
                         "sioDes": "Suspenso(Eleito)",
+                        "sioDtFim": "2023-08-12",
                         "sioDtInicio": "2023-06-10"
                     },
                     {
                         "sioDes": "Efetivo",
                         "sioDtFim": "2023-02-11",
                         "sioDtInicio": "2022-03-29"
+                    },
+                    {
+                        "sioDes": "Efetivo",
+                        "sioDtInicio": "2023-08-12"
                     }
                 ]
             },
             "legDes": "XV"
         },
-        "cadActividadeOrgaos": null,
+        "cadActividadeOrgaos": {
+            "actividadeCom": {
+                "pt_ar_wsgode_objectos_DadosOrgaos": [
+                    {
+                        "cargoDes": {
+                            "pt_ar_wsgode_objectos_DadosCargosOrgao": [
+                                {
+                                    "tiaDes": "CGP"
+                                },
+                                {
+                                    "tiaDes": "CGP"
+                                }
+                            ]
+                        },
+                        "legDes": "XV",
+                        "orgDes": "Comissão de Negócios Estrangeiros e Comunidades Portuguesas",
+                        "orgId": "8326",
+                        "orgSigla": "CNECP",
+                        "timDes": "Efetivo"
+                    },
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Comissão de Defesa Nacional",
+                        "orgId": "8327",
+                        "orgSigla": "CDN",
+                        "timDes": "Suplente"
+                    },
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Comissão de Economia, Obras Públicas, Planeamento e Habitação",
+                        "orgId": "8330",
+                        "orgSigla": "CEOPPH",
+                        "timDes": "Suplente"
+                    },
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Comissão de Saúde",
+                        "orgId": "8333",
+                        "orgSigla": "CS",
+                        "timDes": "Suplente"
+                    },
+                    {
+                        "cargoDes": {
+                            "pt_ar_wsgode_objectos_DadosCargosOrgao": [
+                                {
+                                    "tiaDes": "CGP"
+                                },
+                                {
+                                    "tiaDes": "CGP"
+                                }
+                            ]
+                        },
+                        "legDes": "XV",
+                        "orgDes": "Comissão de Trabalho, Segurança Social e Inclusão",
+                        "orgId": "8334",
+                        "orgSigla": "CTSSI",
+                        "timDes": "Efetivo"
+                    },
+                    {
+                        "cargoDes": {
+                            "pt_ar_wsgode_objectos_DadosCargosOrgao": [
+                                {
+                                    "tiaDes": "CGP"
+                                },
+                                {
+                                    "tiaDes": "CGP"
+                                }
+                            ]
+                        },
+                        "legDes": "XV",
+                        "orgDes": "Comissão de Administração Pública, Ordenamento do Território e Poder Local",
+                        "orgId": "8337",
+                        "orgSigla": "CAPOTPL",
+                        "timDes": "Efetivo"
+                    }
+                ]
+            },
+            "actividadeGT": {
+                "pt_ar_wsgode_objectos_DadosOrgaos": [
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Grupo de Trabalho - Inclusão e Direitos das Pessoas com Deficiência",
+                        "orgId": "8347",
+                        "orgSigla": "GT-IDPD",
+                        "timDes": "Efetivo"
+                    },
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Grupo de Trabalho - Audiências e Audição de Peticionários",
+                        "orgId": "8348",
+                        "orgSigla": "GT-AAP",
+                        "timDes": "Efetivo"
+                    },
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Grupo de Trabalho-Ordens Profissionais",
+                        "orgId": "8362",
+                        "orgSigla": "GT-OP",
+                        "timDes": "Efetivo"
+                    },
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Grupo de Trabalho-Forma de Pagamento do Apoio Extraordinário",
+                        "orgId": "8380",
+                        "orgSigla": "GT-FPAE",
+                        "timDes": "Efetivo"
+                    }
+                ]
+            }
+        },
         "cadCargosFuncoes": {
             "pt_ar_wsgode_objectos_DadosCargosFuncoes": [
                 {
@@ -46020,7 +46280,7 @@
             "depCadId": "7936",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -46047,13 +46307,6 @@
         "cadActividadeOrgaos": {
             "actividadeCom": {
                 "pt_ar_wsgode_objectos_DadosOrgaos": [
-                    {
-                        "legDes": "XV",
-                        "orgDes": "Comissão de Economia, Obras Públicas, Planeamento e Habitação",
-                        "orgId": "8330",
-                        "orgSigla": "CEOPPH",
-                        "timDes": "Efetivo"
-                    },
                     {
                         "legDes": "XV",
                         "orgDes": "Comissão de Educação e Ciência",
@@ -46204,7 +46457,7 @@
             "depCadId": "4210",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -46444,7 +46697,7 @@
             "depCadId": "271",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -47028,7 +47281,7 @@
             },
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -47433,7 +47686,7 @@
             "depCadId": "6129",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -47741,7 +47994,7 @@
             "depCadId": "197",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -48048,7 +48301,7 @@
             "depCadId": "1907",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -48359,7 +48612,7 @@
             "depCadId": "5677",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -48666,7 +48919,7 @@
             "depCadId": "5531",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -48941,7 +49194,7 @@
             "depCadId": "6976",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -49337,7 +49590,7 @@
             "depCadId": "1777",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7246",
                     "gpSigla": "PCP"
@@ -49350,6 +49603,7 @@
                 "pt_ar_wsgode_objectos_DadosSituacaoDeputado": [
                     {
                         "sioDes": "Impedido",
+                        "sioDtFim": "2023-03-06",
                         "sioDtInicio": "2022-09-07"
                     },
                     {
@@ -49747,7 +50001,7 @@
             "depCadId": "7018",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -50217,7 +50471,7 @@
             "depCadId": "6595",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -50566,7 +50820,7 @@
             "depCadId": "2209",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -50930,7 +51184,7 @@
             "depCadId": "1594",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -51333,7 +51587,7 @@
             "depCadId": "6893",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -51438,7 +51692,7 @@
             "depCadId": "6980",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -51679,7 +51933,7 @@
             },
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -51999,7 +52253,7 @@
             "depCadId": "7239",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -52026,6 +52280,13 @@
         "cadActividadeOrgaos": {
             "actividadeCom": {
                 "pt_ar_wsgode_objectos_DadosOrgaos": [
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias",
+                        "orgId": "8325",
+                        "orgSigla": "CACDLG",
+                        "timDes": "Suplente"
+                    },
                     {
                         "legDes": "XV",
                         "orgDes": "Comissão de Trabalho, Segurança Social e Inclusão",
@@ -52209,7 +52470,7 @@
             "depCadId": "4094",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -52423,7 +52684,7 @@
             "depCadId": "6801",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -52784,7 +53045,7 @@
             "depCadId": "4557",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7247",
                     "gpSigla": "BE"
@@ -53133,7 +53394,7 @@
             "depCadId": "7739",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -53357,7 +53618,7 @@
             "depCadId": "6899",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -53386,10 +53647,10 @@
                     },
                     {
                         "legDes": "XV",
-                        "orgDes": "Comissão de Agricultura e Pescas",
-                        "orgId": "8331",
-                        "orgSigla": "CAPes",
-                        "timDes": "Suplente"
+                        "orgDes": "Comissão de Defesa Nacional",
+                        "orgId": "8327",
+                        "orgSigla": "CDN",
+                        "timDes": "Efetivo"
                     },
                     {
                         "legDes": "XV",
@@ -53662,7 +53923,7 @@
             "depCadId": "6530",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -53773,7 +54034,7 @@
             "depCadId": "6877",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -53999,7 +54260,7 @@
             "depCadId": "5841",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -54230,7 +54491,7 @@
             "depCadId": "6334",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -54509,7 +54770,7 @@
             "depCadId": "7348",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -54909,7 +55170,7 @@
             "depCadId": "6706",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -55225,7 +55486,7 @@
             "depCadId": "2071",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -55593,7 +55854,7 @@
             "depCadId": "6531",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -55676,6 +55937,13 @@
                         "orgDes": "Grupo de Trabalho-Júri Prémio Direitos Humanos 2022",
                         "orgId": "8363",
                         "orgSigla": "GT-JPDH2022",
+                        "timDes": "Efetivo"
+                    },
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Grupo de Trabalho-Júri Prémio Direitos Humanos 2023",
+                        "orgId": "8382",
+                        "orgSigla": "GT-JPDH2023",
                         "timDes": "Efetivo"
                     }
                 ]
@@ -55827,7 +56095,7 @@
             "depCadId": "7289",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -56188,7 +56456,7 @@
             "depCadId": "1865",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -56237,6 +56505,20 @@
                         "timDes": "Suplente"
                     }
                 ]
+            },
+            "actividadeGT": {
+                "pt_ar_wsgode_objectos_DadosOrgaos": {
+                    "cargoDes": {
+                        "pt_ar_wsgode_objectos_DadosCargosOrgao": {
+                            "tiaDes": "Coordenador "
+                        }
+                    },
+                    "legDes": "XV",
+                    "orgDes": "Grupo de Trabalho-Revisão e Atualização da Lei da Água",
+                    "orgId": "8383",
+                    "orgSigla": "GT-RALA",
+                    "timDes": "Efetivo"
+                }
             }
         },
         "cadCargosFuncoes": {
@@ -56482,7 +56764,7 @@
             "depCadId": "5635",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -56504,9 +56786,9 @@
                 "pt_ar_wsgode_objectos_DadosOrgaos": [
                     {
                         "legDes": "XV",
-                        "orgDes": "Comissão de Defesa Nacional",
-                        "orgId": "8327",
-                        "orgSigla": "CDN",
+                        "orgDes": "Comissão de Economia, Obras Públicas, Planeamento e Habitação",
+                        "orgId": "8330",
+                        "orgSigla": "CEOPPH",
                         "timDes": "Suplente"
                     },
                     {
@@ -56838,7 +57120,7 @@
             "depCadId": "6548",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -57107,7 +57389,7 @@
             "depCadId": "6878",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -57542,7 +57824,7 @@
             "depCadId": "6885",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -57968,7 +58250,7 @@
             "depCadId": "4055",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -58253,7 +58535,7 @@
             },
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -58604,7 +58886,7 @@
             "depCadId": "7382",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -58964,7 +59246,7 @@
             "depCadId": "6371",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -59221,7 +59503,7 @@
             "depCadId": "7349",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7245",
                     "gpSigla": "IL"
@@ -59354,6 +59636,13 @@
                         "orgDes": "Grupo de Trabalho-Avaliação da Legislação sobre Abusos Sexuais contra Menores",
                         "orgId": "8376",
                         "orgSigla": "GT-ALASCM",
+                        "timDes": "Efetivo"
+                    },
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Grupo de Trabalho-Júri Prémio Direitos Humanos 2023",
+                        "orgId": "8382",
+                        "orgSigla": "GT-JPDH2023",
                         "timDes": "Efetivo"
                     }
                 ]
@@ -59529,7 +59818,7 @@
             "depCadId": "3918",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -59813,7 +60102,7 @@
             "depCadId": "7866",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -60116,7 +60405,7 @@
             "depCadId": "4197",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7246",
                     "gpSigla": "PCP"
@@ -60479,7 +60768,7 @@
             "depCadId": "6789",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -60787,7 +61076,7 @@
             "depCadId": "5836",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -60826,7 +61115,7 @@
                         "orgDes": "Comissão de Ambiente e Energia",
                         "orgId": "8335",
                         "orgSigla": "CAENE",
-                        "timDes": "Suplente"
+                        "timDes": "Efetivo"
                     },
                     {
                         "legDes": "XV",
@@ -61025,7 +61314,7 @@
             "depCadId": "6537",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -61379,7 +61668,7 @@
             "depCadId": "3989",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -61623,7 +61912,7 @@
             "depCadId": "1741",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -62092,7 +62381,7 @@
             "depCadId": "7302",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -62482,7 +62771,7 @@
             "depCadId": "4392",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -62773,7 +63062,7 @@
             "depCadId": "7757",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -62798,13 +63087,6 @@
                         "orgDes": "Comissão de Assuntos Constitucionais, Direitos, Liberdades e Garantias",
                         "orgId": "8325",
                         "orgSigla": "CACDLG",
-                        "timDes": "Efetivo"
-                    },
-                    {
-                        "legDes": "XV",
-                        "orgDes": "Comissão de Orçamento e Finanças",
-                        "orgId": "8329",
-                        "orgSigla": "COF",
                         "timDes": "Efetivo"
                     },
                     {
@@ -63292,7 +63574,7 @@
             "depCadId": "6637",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -63317,7 +63599,7 @@
                         "orgDes": "Comissão de Assuntos Europeus",
                         "orgId": "8328",
                         "orgSigla": "CAE",
-                        "timDes": "Efetivo"
+                        "timDes": "Suplente"
                     },
                     {
                         "cargoDes": {
@@ -64059,7 +64341,7 @@
             "depCadId": "1893",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -64689,7 +64971,7 @@
             "depCadId": "4453",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -65271,7 +65553,7 @@
             "depCadId": "416",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -65582,7 +65864,7 @@
             "depCadId": "7345",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7244",
                     "gpSigla": "CH"
@@ -65932,7 +66214,7 @@
             "depCadId": "3926",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7247",
                     "gpSigla": "BE"
@@ -66110,6 +66392,13 @@
                         "orgDes": "Grupo de Trabalho-Avaliação da Legislação sobre Abusos Sexuais contra Menores",
                         "orgId": "8376",
                         "orgSigla": "GT-ALASCM",
+                        "timDes": "Efetivo"
+                    },
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Grupo de Trabalho-Revisão e Atualização da Lei da Água",
+                        "orgId": "8383",
+                        "orgSigla": "GT-RALA",
                         "timDes": "Efetivo"
                     }
                 ]
@@ -66357,7 +66646,7 @@
             "depCadId": "7441",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -66431,7 +66720,7 @@
             "depCadId": "2051",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -66465,50 +66754,60 @@
             },
             "legDes": "XV"
         },
-        "cadActividadeOrgaos": null,
+        "cadActividadeOrgaos": {
+            "actividadeCom": {
+                "pt_ar_wsgode_objectos_DadosOrgaos": {
+                    "legDes": "XV",
+                    "orgDes": "Comissão de Orçamento e Finanças",
+                    "orgId": "8329",
+                    "orgSigla": "COF",
+                    "timDes": "Suplente"
+                }
+            }
+        },
         "cadCargosFuncoes": {
             "pt_ar_wsgode_objectos_DadosCargosFuncoes": [
                 {
                     "funAntiga": "N",
                     "funDes": "Deputado na XII Legislatura;",
-                    "funId": "23116",
-                    "funOrdem": "1"
-                },
-                {
-                    "funAntiga": "N",
-                    "funDes": "Presidente da Federação de Aveiro do Partido Socialista",
-                    "funId": "23117",
-                    "funOrdem": "2"
+                    "funId": "42345",
+                    "funOrdem": "0"
                 },
                 {
                     "funAntiga": "S",
                     "funDes": "Presidente da Assembleia de Freguesia de S. João da Madeira;",
-                    "funId": "23118",
-                    "funOrdem": "3"
+                    "funId": "42347",
+                    "funOrdem": "0"
+                },
+                {
+                    "funAntiga": "N",
+                    "funDes": "Presidente da Federação de Aveiro do Partido Socialista",
+                    "funId": "42346",
+                    "funOrdem": "1"
                 },
                 {
                     "funAntiga": "S",
                     "funDes": "Membro da Direcção da Associação de Estudantes do ISEG;",
-                    "funId": "23119",
-                    "funOrdem": "4"
+                    "funId": "42348",
+                    "funOrdem": "1"
                 },
                 {
                     "funAntiga": "S",
                     "funDes": "Membro do Senado da Universidade Técnica de Lisboa;",
-                    "funId": "23120",
-                    "funOrdem": "5"
+                    "funId": "42349",
+                    "funOrdem": "2"
                 },
                 {
                     "funAntiga": "S",
                     "funDes": "Presidente da Mesa da RGA do ISEG;",
-                    "funId": "23121",
-                    "funOrdem": "6"
+                    "funId": "42350",
+                    "funOrdem": "3"
                 },
                 {
                     "funAntiga": "S",
                     "funDes": "Adjunto da Administração da TECMACAL,SA;",
-                    "funId": "23122",
-                    "funOrdem": "7"
+                    "funId": "42351",
+                    "funOrdem": "4"
                 }
             ]
         },
@@ -66557,7 +66856,7 @@
             "pt_ar_wsgode_objectos_DadosHabilitacoes": {
                 "habDes": "Economia",
                 "habEstado": "C",
-                "habId": "19702",
+                "habId": "35807",
                 "habTipoId": "13"
             }
         },
@@ -66709,7 +67008,7 @@
             "depCadId": "7391",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7244",
                     "gpSigla": "CH"
@@ -66960,7 +67259,7 @@
             "depCadId": "7336",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7244",
                     "gpSigla": "CH"
@@ -67264,7 +67563,7 @@
             "depCadId": "1992",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -67606,7 +67905,7 @@
             "depCadId": "7161",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -67628,17 +67927,10 @@
                 "pt_ar_wsgode_objectos_DadosOrgaos": [
                     {
                         "legDes": "XV",
-                        "orgDes": "Comissão de Assuntos Europeus",
-                        "orgId": "8328",
-                        "orgSigla": "CAE",
-                        "timDes": "Suplente"
-                    },
-                    {
-                        "legDes": "XV",
                         "orgDes": "Comissão de Educação e Ciência",
                         "orgId": "8332",
                         "orgSigla": "CEC",
-                        "timDes": "Suplente"
+                        "timDes": "Efetivo"
                     },
                     {
                         "legDes": "XV",
@@ -67966,7 +68258,7 @@
             "depCadId": "469",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -68338,7 +68630,7 @@
             "depCadId": "7034",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -68870,7 +69162,7 @@
             "depCadId": "4441",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -69326,7 +69618,7 @@
             "depCadId": "7731",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -69606,7 +69898,7 @@
             "depCadId": "7935",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -69840,7 +70132,7 @@
             "depCadId": "6552",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -69894,6 +70186,15 @@
                         "timDes": "Efetivo"
                     }
                 ]
+            },
+            "actividadeGT": {
+                "pt_ar_wsgode_objectos_DadosOrgaos": {
+                    "legDes": "XV",
+                    "orgDes": "Grupo de Trabalho-Revisão e Atualização da Lei da Água",
+                    "orgId": "8383",
+                    "orgSigla": "GT-RALA",
+                    "timDes": "Efetivo"
+                }
             }
         },
         "cadCargosFuncoes": {
@@ -70121,7 +70422,7 @@
             "depCadId": "7366",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -70379,7 +70680,7 @@
             "depCadId": "2273",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -70745,7 +71046,7 @@
             "depCadId": "7390",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7244",
                     "gpSigla": "CH"
@@ -70808,6 +71109,13 @@
                         "orgId": "8372",
                         "orgSigla": "GT-H",
                         "timDes": "Suplente"
+                    },
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Grupo de Trabalho-Revisão e Atualização da Lei da Água",
+                        "orgId": "8383",
+                        "orgSigla": "GT-RALA",
+                        "timDes": "Efetivo"
                     }
                 ]
             }
@@ -71044,7 +71352,7 @@
             "depCadId": "6945",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7245",
                     "gpSigla": "IL"
@@ -71344,7 +71652,7 @@
             "depCadId": "6682",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -71649,7 +71957,7 @@
             "depCadId": "5610",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -71841,7 +72149,7 @@
             "depCadId": "7194",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -72112,7 +72420,7 @@
             "depCadId": "6867",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -72468,7 +72776,7 @@
             "depCadId": "8016",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -72724,7 +73032,7 @@
             "depCadId": "7344",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7244",
                     "gpSigla": "CH"
@@ -73035,7 +73343,7 @@
             "depCadId": "5693",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -73276,7 +73584,7 @@
             "depCadId": "5492",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -73611,7 +73919,7 @@
             "depCadId": "7573",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -74000,7 +74308,7 @@
             "depCadId": "7342",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7244",
                     "gpSigla": "CH"
@@ -74088,6 +74396,13 @@
                         "orgDes": "Grupo de Trabalho-Júri Prémio Direitos Humanos 2022",
                         "orgId": "8363",
                         "orgSigla": "GT-JPDH2022",
+                        "timDes": "Efetivo"
+                    },
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Grupo de Trabalho-Júri Prémio Direitos Humanos 2023",
+                        "orgId": "8382",
+                        "orgSigla": "GT-JPDH2023",
                         "timDes": "Efetivo"
                     }
                 ]
@@ -74285,7 +74600,7 @@
             "depCadId": "132",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -74498,7 +74813,7 @@
             "depCadId": "7331",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7245",
                     "gpSigla": "IL"
@@ -74777,7 +75092,7 @@
             "depCadId": "7337",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7248",
                     "gpSigla": "L"
@@ -74909,6 +75224,20 @@
                         "orgDes": "Grupo de Trabalho-Avaliação da Legislação sobre Abusos Sexuais contra Menores",
                         "orgId": "8376",
                         "orgSigla": "GT-ALASCM",
+                        "timDes": "Efetivo"
+                    },
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Grupo de Trabalho-Júri Prémio Direitos Humanos 2023",
+                        "orgId": "8382",
+                        "orgSigla": "GT-JPDH2023",
+                        "timDes": "Efetivo"
+                    },
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Grupo de Trabalho-Revisão e Atualização da Lei da Água",
+                        "orgId": "8383",
+                        "orgSigla": "GT-RALA",
                         "timDes": "Efetivo"
                     }
                 ]
@@ -75135,7 +75464,7 @@
             "depCadId": "7945",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -75344,7 +75673,7 @@
             "depCadId": "7886",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -75369,7 +75698,7 @@
                         "orgDes": "Comissão de Economia, Obras Públicas, Planeamento e Habitação",
                         "orgId": "8330",
                         "orgSigla": "CEOPPH",
-                        "timDes": "Suplente"
+                        "timDes": "Efetivo"
                     },
                     {
                         "legDes": "XV",
@@ -75377,6 +75706,13 @@
                         "orgId": "8331",
                         "orgSigla": "CAPes",
                         "timDes": "Efetivo"
+                    },
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Comissão de Ambiente e Energia",
+                        "orgId": "8335",
+                        "orgSigla": "CAENE",
+                        "timDes": "Suplente"
                     }
                 ]
             },
@@ -75554,7 +75890,7 @@
             "depCadId": "6176",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -76027,7 +76363,7 @@
             "depCadId": "6956",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -76265,7 +76601,7 @@
             "depCadId": "1468",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -76290,7 +76626,7 @@
                         "orgDes": "Comissão de Defesa Nacional",
                         "orgId": "8327",
                         "orgSigla": "CDN",
-                        "timDes": "Efetivo"
+                        "timDes": "Suplente"
                     },
                     {
                         "legDes": "XV",
@@ -76320,7 +76656,7 @@
             "pt_ar_wsgode_objectos_DadosCargosFuncoes": {
                 "funAntiga": "S",
                 "funDes": "Vice-Presidente do Governo Regional dos Açores de 2004 a 2020\nPresidente da Camara Municipal de Angra do Heroísmo de 1997 a 2004\nDeputado à Assembleia da República de 1995 a 1996",
-                "funId": "42170",
+                "funId": "42365",
                 "funOrdem": "0"
             }
         },
@@ -76351,7 +76687,7 @@
             "pt_ar_wsgode_objectos_DadosHabilitacoes": {
                 "habDes": "Economia",
                 "habEstado": "C",
-                "habId": "35723",
+                "habId": "35810",
                 "habTipoId": "13"
             }
         },
@@ -76518,7 +76854,7 @@
             "depCadId": "6866",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -76922,7 +77258,7 @@
             "depCadId": "7297",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -77276,7 +77612,7 @@
             "depCadId": "1264",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -77547,7 +77883,7 @@
             "depCadId": "7333",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -77895,7 +78231,7 @@
             "depCadId": "6710",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -78146,7 +78482,7 @@
             "depCadId": "7128",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -78226,7 +78562,7 @@
             "pt_ar_wsgode_objectos_DadosCargosFuncoes": {
                 "funAntiga": "N",
                 "funDes": "Membro da Assembleia Municipal da Trofa",
-                "funId": "42286",
+                "funId": "42364",
                 "funOrdem": "0"
             }
         },
@@ -78257,7 +78593,7 @@
             "pt_ar_wsgode_objectos_DadosHabilitacoes": {
                 "habDes": "Direito",
                 "habEstado": "C",
-                "habId": "35773",
+                "habId": "35809",
                 "habTipoId": "13"
             }
         },
@@ -78757,7 +79093,7 @@
             "depCadId": "7335",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -79025,7 +79361,7 @@
             "depCadId": "1944",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -79403,7 +79739,7 @@
             "depCadId": "7404",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -79429,13 +79765,29 @@
         },
         "cadActividadeOrgaos": {
             "actividadeCom": {
-                "pt_ar_wsgode_objectos_DadosOrgaos": {
-                    "legDes": "XV",
-                    "orgDes": "Comissão de Agricultura e Pescas",
-                    "orgId": "8331",
-                    "orgSigla": "CAPes",
-                    "timDes": "Efetivo"
-                }
+                "pt_ar_wsgode_objectos_DadosOrgaos": [
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Comissão de Defesa Nacional",
+                        "orgId": "8327",
+                        "orgSigla": "CDN",
+                        "timDes": "Efetivo"
+                    },
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Comissão de Orçamento e Finanças",
+                        "orgId": "8329",
+                        "orgSigla": "COF",
+                        "timDes": "Suplente"
+                    },
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Comissão de Agricultura e Pescas",
+                        "orgId": "8331",
+                        "orgSigla": "CAPes",
+                        "timDes": "Efetivo"
+                    }
+                ]
             }
         },
         "cadDeputadoLegis": {
@@ -79626,7 +79978,7 @@
             "depCadId": "6962",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -79675,18 +80027,27 @@
                 ]
             },
             "actividadeGT": {
-                "pt_ar_wsgode_objectos_DadosOrgaos": {
-                    "cargoDes": {
-                        "pt_ar_wsgode_objectos_DadosCargosOrgao": {
-                            "tiaDes": "Coordenador "
-                        }
+                "pt_ar_wsgode_objectos_DadosOrgaos": [
+                    {
+                        "cargoDes": {
+                            "pt_ar_wsgode_objectos_DadosCargosOrgao": {
+                                "tiaDes": "Coordenador "
+                            }
+                        },
+                        "legDes": "XV",
+                        "orgDes": "Grupo de Trabalho-Audiências e Audições",
+                        "orgId": "8354",
+                        "orgSigla": "GT-AA",
+                        "timDes": "Efetivo"
                     },
-                    "legDes": "XV",
-                    "orgDes": "Grupo de Trabalho-Audiências e Audições",
-                    "orgId": "8354",
-                    "orgSigla": "GT-AA",
-                    "timDes": "Efetivo"
-                }
+                    {
+                        "legDes": "XV",
+                        "orgDes": "Grupo de Trabalho-Ordens Profissionais",
+                        "orgId": "8362",
+                        "orgSigla": "GT-OP",
+                        "timDes": "Suplente"
+                    }
+                ]
             }
         },
         "cadDeputadoLegis": {
@@ -79737,7 +80098,7 @@
             "depCadId": "7929",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -80000,7 +80361,7 @@
             "depCadId": "2445",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -80523,7 +80884,7 @@
             "depCadId": "6112",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -80841,7 +81202,7 @@
             },
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -81215,7 +81576,7 @@
             "depCadId": "7969",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7243",
                     "gpSigla": "PSD"
@@ -81513,7 +81874,7 @@
             "depCadId": "7878",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
@@ -81776,7 +82137,7 @@
             "depCadId": "6834",
             "depGP": {
                 "pt_ar_wsgode_objectos_DadosSituacaoGP": {
-                    "gpDtFim": "2023-07-21",
+                    "gpDtFim": "2023-09-13",
                     "gpDtInicio": "2022-03-29",
                     "gpId": "7242",
                     "gpSigla": "PS"
